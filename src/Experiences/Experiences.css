@@ -1,0 +1,23 @@
+.experiences {
+    padding: 20px;
+  }
+  
+  .experience-item {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    margin-right: 10px;
+    padding: 5px 15px;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  

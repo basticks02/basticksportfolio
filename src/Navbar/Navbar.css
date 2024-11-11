@@ -1,0 +1,35 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px;
+    transition: background-color 0.3s ease-in-out;
+    z-index: 1000;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    font-family: 'Bebas Neue', sans-serif;;
+  }
+  
+  .navbar.transparent {
+    background-color: transparent;
+  }
+  
+  .navbar {
+    background-color: black;
+  }
+  
+  .nav-logo {
+    /* color: white; */
+    font-size: 1.5rem;
+  }
+
+  .nav-links{
+    text-transform: uppercase;
+  }
+
+  /* .nav-links a:hover {
+    color: rgba(0, 0, 0, 0.391);
+    transform: scale(1.2);
+  } */
+  
