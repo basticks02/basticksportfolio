@@ -1,0 +1,17 @@
+.timeline {
+    padding: 20px;
+  }
+  
+  .timeline-year {
+    margin-bottom: 20px;
+  }
+  
+  .timeline-event {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  

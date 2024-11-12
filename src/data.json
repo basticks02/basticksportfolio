@@ -1,0 +1,68 @@
+{
+    "currentUpdates": [
+      {
+        "title": "Google Tech Equity Collective",
+        "date": "October 2024",
+        "description": "I attended Google’s Tech Equity Collective event focused on increasing diversity in tech.",
+        "backgroundImage": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1731293017/IMG_8606_lewt2o.jpg",
+        "link": "https://techequitycollective.withgoogle.com",
+        "timelineId": "google-tech-equity-collective"
+      },
+      {
+        "title": "Meta Stuff",
+        "date": "May 2024",
+        "description": "Interned at Meta during freshman summer.",
+        "backgroundImage": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1731293430/IMG_0200_bwj0sw.jpg",
+        "link": "https://techequitycollective.withgoogle.com",
+        "timelineId": "google-tech-equity-collective"
+      }
+    ],
+
+    "timeline": [
+      {
+        "year": 2024,
+        "events": [
+          {
+            "type": "award",
+            "title": "Award Title",
+            "description": "Description of the achievement.",
+            "image": "https://link-to-image.jpg"
+          }
+        ]
+      }
+    ],
+    
+    "experiences": {
+      "professional": [
+        {
+          "company": "Meta",
+          "title": "Software Enfineering Intern",
+          "description": "Job description here.",
+          "image": "https://link-to-image.jpg"
+        }
+      ]
+    },
+    "projects": [
+      {
+        "title": "Synchronize Health App",
+        "description": "A health management app built for EnoObong Memorial Medical Services.",
+        "image": "https://link-to-project-image.jpg",
+        "link": "https://github.com/basticks02/synchronize-health"
+      },
+      {
+        "title": "Flixster Movie Finder",
+        "description": "An interactive movie discovery site with live data from TMDb API.",
+        "image": "https://link-to-flixster-image.jpg",
+        "link": "https://github.com/basticks02/flixster"
+      }
+    ],
+    "bio":[
+        {
+            "intro": "I am a quick-learning rising sophomore interested in building long-lasting relationships and striving for excellence during my undergraduate years. My curiosity about the interaction between hardware and software, and their role in AI development, stems from my interest in Mathematics and Computer programming. After living in Nigeria for almost a decade, I have come to understand the negative impact of the digital divide. My passion lies in bridging this gap and promoting technological growth in rural areas.",
+            "number": "+1 (202) 763-1327",
+            "email": "ekomobongekanem10@gmail.com"
+
+        }
+    ]
+  }
+  
