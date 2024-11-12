@@ -2,51 +2,56 @@ import React, { useEffect, useState } from 'react';
 import './Hero.css';
 
 export default function Hero() {
-  const finalText = "EKOMOBONG EKANEM";
-  const [displayText, setDisplayText] = useState("");
+  const firstName = "EKOMOBONG";
+  const lastName = "EKANEM";
+  const [displayFirstName, setDisplayFirstName] = useState("");
+  const [displayLastName, setDisplayLastName] = useState("");
   const chars = "!@#$%^&*()_+[]{}<>? ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
   useEffect(() => {
-    let interval;
-    let currentText = Array(finalText.length).fill("");
+    let firstNameInterval, lastNameInterval;
+    let currentFirstName = Array(firstName.length).fill("");
+    let currentLastName = Array(lastName.length).fill("");
     let frame = 0;
 
-    const decryptAnimation = () => {
-      interval = setInterval(() => {
-        currentText = currentText.map((char, index) => {
-          // Start showing the correct character after a certain number of frames to prevent excessive delay
-          if (frame > index * 15 + 30) {
-            return finalText[index];
+    const decryptAnimation = (nameArray, setDisplay, finalName, delayMultiplier) => {
+      return setInterval(() => {
+        nameArray = nameArray.map((char, index) => {
+          if (frame > index * 15 + delayMultiplier) {
+            return finalName[index];
           }
 
-          // Otherwise, randomly change the character with an increasing probability of being correct
           if (Math.random() > 0.01 + frame * 0.01) {
             return chars[Math.floor(Math.random() * chars.length)];
           } else {
-            return finalText[index];
+            return finalName[index];
           }
         });
 
-        setDisplayText(currentText.join(""));
+        setDisplay(nameArray.join(""));
 
-        // Stop when the text is fully decrypted
-        if (currentText.join("") === finalText) {
-          clearInterval(interval);
+        if (nameArray.join("") === finalName) {
+          clearInterval(finalName === firstName ? firstNameInterval : lastNameInterval);
         }
         
         frame++;
       }, 50);
     };
 
-    decryptAnimation();
+    firstNameInterval = decryptAnimation(currentFirstName, setDisplayFirstName, firstName, 45);
+    lastNameInterval = decryptAnimation(currentLastName, setDisplayLastName, lastName, 60);
 
-    return () => clearInterval(interval);
-  }, [finalText]);
+    return () => {
+      clearInterval(firstNameInterval);
+      clearInterval(lastNameInterval);
+    };
+  }, [firstName, lastName]);
 
   return (
     <section className="hero" id="hero">
-      <div className="hero-name" id="animated-name">
-        {displayText}
+      <div className="hero-name">
+        <div className="first-name" id="animated-first-name">{displayFirstName}</div>
+        <div className="last-name" id="animated-last-name">{displayLastName}</div>
       </div>
     </section>
   );

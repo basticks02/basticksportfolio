@@ -3,59 +3,91 @@
     position: relative;
     border: solid 1px #f0f0f0;
     color: #f0f0f0;
-    padding: 3%;
+    padding: 4%;
     justify-content: center;
-}
-
-.update-container{
+  }
+  
+  .update-container {
     display: flex;
     justify-content: center;
     gap: 3%;
     height: 80%;
-    &:hover{
-        cursor: pointer;
-    }
-}
-
-.bio{
+    align-items: stretch;
+  }
+  
+  .bio {
     width: 40%;
     border: solid 1px #f0f0f0;
     height: 100%;
+    text-align: left;
+
 }
 
-.update-card {
-    width: 40%;
-    /* height: 90%; */
+.bio h3{
+    text-transform: uppercase;
+    font-family: "Major Mono Display", monospace;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+.bio,
+.update-main {
+  flex: 1; 
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: space-between;
+  border: solid 1px #f0f0f0;
+  box-sizing: border-box;
+}
+
+  
+  .update-main{
+        width: 40%;
+        border: solid 1px #f0f0f0;
+        position: relative;
+        overflow: hidden;
+  }
+
+  .update-card {
+    width: 100%;
+    height: 100%;
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: flex-end;
     border: solid 1px #f0f0f0;
-}
-
-.update-overlay.slide-in {
-    transform: translateX(100%); /* Start outside the container */
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.5s ease-in-out; /* Apply transition to entire card */
   }
   
-  .update-overlay.slide-out {
-    transform: translateX(-100%); /* Slide out to the left */
+  .update-card.slide-in {
+    transform: translateX(100%);
   }
-
-.update-overlay {
+  
+  .update-card.slide-out {
+    transform: translateX(-100%);
+  }
+  
+  .update-overlay {
     background-color: rgba(0, 0, 0, 0.6);
     padding: 20px;
     width: 100%;
-    transition: transform 0.5s ease-in-out;
-}
-
-.update-links a {
+  }
+  
+  .update-links a {
     color: #f0f0f0;
     text-decoration: none;
     padding: 5px 10px;
     background: rgba(255, 255, 255, 0.3);
     border-radius: 5px;
-}
-
-.current-updates h1{
+  }
+  
+  .current-updates h1 {
     color: #f0f0f0;
-}
+    text-transform: uppercase;
+    font-family: "Major Mono Display", monospace;
+    font-style: normal;
+    font-size: 4rem;
+  }
+  

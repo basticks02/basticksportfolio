@@ -16,20 +16,13 @@
   }
   
   .navbar {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.589);
   }
   
   .nav-logo {
-    /* color: white; */
     font-size: 1.5rem;
   }
 
   .nav-links{
     text-transform: uppercase;
   }
-
-  /* .nav-links a:hover {
-    color: rgba(0, 0, 0, 0.391);
-    transform: scale(1.2);
-  } */
-  
