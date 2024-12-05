@@ -7,7 +7,9 @@ export default function Timeline() {
 
   return (
     <section className="timeline" id='timeline'>
-      <h2>Timeline</h2>
+      <div className='timeline_head'>
+        <h1>Cool Stuff That Happened...</h1>
+      </div>
       {timelineData.map((yearBlock) => (
         <div key={yearBlock.year} className="timeline-year">
           {yearBlock.events.map((event, index) => (

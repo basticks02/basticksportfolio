@@ -31,7 +31,7 @@ export default function CurrentUpdates() {
 
   return (
     <section className="current-updates" id="current-updates">
-      <h1>What's Happening?</h1>
+      <h1>What's Happening..?</h1>
 
       <div className="update-container">
         <div className={`update-main ${transitioning ? 'transitioning' : ''}`}>
@@ -61,9 +61,15 @@ export default function CurrentUpdates() {
         <div className="bio">
           <h3>Who Is He...?</h3>
           <p>{bio.intro}</p>
+          <a href=""></a>
           <h3>Let's Talk</h3>
           <a href={`mailto:${bio.email}`}>{bio.email}</a>
           <p>{bio.number}</p>
+          <button 
+            onClick={() => window.open(bio.resumeLink, '_blank')} 
+            className="resume-button">
+            Resume
+          </button>
         </div>
       </div>
     </section>

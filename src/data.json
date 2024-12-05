@@ -34,13 +34,37 @@
     
     "experiences": {
       "professional": [
-        {
-          "company": "Meta",
-          "title": "Software Enfineering Intern",
-          "description": "Job description here.",
-          "image": "https://link-to-image.jpg"
-        }
-      ]
+      {
+        "company": "Meta",
+        "title": "Software Engineering Intern",
+        "description": "Worked on improving UI components for the Workplace team.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Meta_HQ_2023.png",
+        "link": "https://example.com/meta-internship"
+      },
+      {
+        "company": "Google",
+        "title": "Frontend Developer",
+        "description": "Developed scalable frontend components for internal tools.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Meta_HQ_2023.png",
+        "link": "https://example.com/google-developer"
+      }
+    ],
+    "education": [
+      {
+        "institution": "Harvard University",
+        "degree": "B.S. in Computer Science",
+        "description": "Specialized in AI and Machine Learning.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Meta_HQ_2023.png",
+        "link": "https://example.com/harvard-degree"
+      },
+      {
+        "institution": "MIT",
+        "degree": "M.S. in Software Engineering",
+        "description": "Focused on large-scale systems and distributed computing.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Meta_HQ_2023.png",
+        "link": "https://example.com/mit-degree"
+      }
+    ]
     },
     "projects": [
       {
@@ -60,7 +84,8 @@
         {
             "intro": "I am a quick-learning rising sophomore interested in building long-lasting relationships and striving for excellence during my undergraduate years. My curiosity about the interaction between hardware and software, and their role in AI development, stems from my interest in Mathematics and Computer programming. After living in Nigeria for almost a decade, I have come to understand the negative impact of the digital divide. My passion lies in bridging this gap and promoting technological growth in rural areas.",
             "number": "+1 (202) 763-1327",
-            "email": "ekomobongekanem10@gmail.com"
+            "email": "ekomobongekanem10@gmail.com",
+            "resumeLink": "https://drive.google.com/file/d/1H3lwWbTCDVkFtaCWL0nPH_BvWdKBoAuP/view?usp=drive_link"
 
         }
     ]

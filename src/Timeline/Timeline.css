@@ -1,9 +1,23 @@
 .timeline {
-    padding: 20px;
+    /* padding: 20px; */
+    border: 1px solid white;
   }
   
   .timeline-year {
     margin-bottom: 20px;
+  }
+
+  .timeline_head{
+    border: 1px white solid;
+    padding:4%;
+  }
+
+  .timeline_head h1{
+    color: #f0f0f0;
+    text-transform: uppercase;
+    font-family: "Major Mono Display", monospace;
+    font-style: normal;
+    font-size: 4rem;
   }
   
   .timeline-event {

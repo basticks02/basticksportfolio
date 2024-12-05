@@ -25,8 +25,8 @@ export default function App() {
       <Navbar transparent={navbarTransparent} />
       <Hero id="hero" />
       <CurrentUpdates id="current-updates" />
-      <Timeline id="timeline" />
       <Experiences id="experiences" />
+      <Timeline id="timeline" />
       <Projects id="projects" />
       <Footer id="footer" />
     </div>

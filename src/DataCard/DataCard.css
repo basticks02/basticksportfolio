@@ -1,0 +1,100 @@
+.data-card {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+  }
+  
+  .data-card:hover::before {
+    transform: scale(1.1); /* Zoom background on hover */
+    filter: brightness(0.5); /* Dim background slightly */
+  }
+  
+  .data-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: inherit;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+    transform: scale(1);
+    filter: brightness(0.7); /* Default dim background */
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+  }
+  
+  .data-overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.8); /* Dark overlay for clicked state */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2; /* Ensure it's above the background */
+    opacity: 0; /* Default hidden */
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .data-overlay.show-description {
+    opacity: 1; /* Show overlay when clicked */
+  }
+  
+  .full-description {
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .data-content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    z-index: 3; /* Ensure text is always on top */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    text-align: left;
+  }
+  
+  .data-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .data-logo {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    background-color: white;
+    border-radius: 50%;
+  }
+  
+  .data-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .data-title:hover {
+    text-decoration: underline;
+  }
+  
+  .data-subtitle,
+  .data-date {
+    font-size: 0.9rem;
+    color: #f0f0f0;
+  }
+  
+  .data-card.expanded .data-overlay {
+    opacity: 1; /* Ensure overlay is shown when expanded */
+  }
+  
