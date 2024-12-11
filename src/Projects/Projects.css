@@ -1,9 +1,11 @@
 .projects {
-    padding: 20px;
-    text-align: center;
+    border: 1px white solid;
+    margin-bottom: 10px;
+    font-family: 'Bebas Neue', sans-serif;
   }
   
   .project-list {
+    padding: 20px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -13,7 +15,6 @@
   .project-card {
     background-color: #fff;
     padding: 15px;
-    border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 250px;
     text-align: left;

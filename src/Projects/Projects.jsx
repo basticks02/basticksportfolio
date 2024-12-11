@@ -5,7 +5,9 @@ import data from '../data.json';
 export default function Projects() {
   return (
     <section className="projects" id='projects'>
-      <h2>Projects</h2>
+      <div className="timeline_head">
+        <h1>Projects & Certifications...</h1>
+      </div>
       <div className="project-list">
         {data.projects.map((project, index) => (
           <div key={index} className="project-card">

@@ -1,34 +1,35 @@
 .experiences {
-  /* padding: 20px; */
+  margin-bottom: 10px;
 }
 
 .view-toggle {
-  margin-bottom: 20px;
+  margin: 20px;
+  text-align: center;
 }
 
 .view-toggle button {
+  text-transform: uppercase;
   margin-right: 10px;
   padding: 10px 20px;
   font-size: 1rem;
   cursor: pointer;
-  background-color: #333;
-  color: #fff;
+  background-color: #05040400;
+  color: #ffffff66;
   border: none;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .view-toggle button.active {
-  background-color: #007bff;
+  color: white;
+  transform: scale(1.2);
+
+  &:hover{
+    color: white;
+  }
 }
 
 .view-toggle button:hover {
-  background-color: #555;
+  color: #ffffffa4;
+  transition: all 0.3s ease;
 }
 
-.experience-cards {
-  /* display: flex; */
-  /* flex-wrap: wrap; */
-  /* justify-content: center; */
-  gap: 20px;
-}
