@@ -3,10 +3,6 @@
     margin-bottom: 10px;
   }
   
-  .timeline-year {
-    margin-bottom: 20px;
-  }
-
   .timeline_head{
     border: 1px white solid;
     padding:4%;
@@ -20,12 +16,18 @@
     font-size: 4rem;
   }
   
-  .timeline-event {
-    background-size: cover;
-    background-position: center;
-    color: white;
-    padding: 20px;
-    border-radius: 8px;
-    margin-bottom: 20px;
+  .timeline-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10;
   }
+
+  
+  @media screen and (max-width: 600px) {
+    .timeline-grid {
+      grid-template-columns: 1fr; /* Stack cards on smaller screens */
+    }
+  }
+
+
   

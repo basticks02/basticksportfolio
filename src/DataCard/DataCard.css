@@ -14,8 +14,8 @@
   }
   
   .data-card:hover::before {
-    transform: scale(1.1); /* Zoom background on hover */
-    filter: brightness(0.5); /* Dim background slightly */
+    transform: scale(1.1); 
+    filter: brightness(0.5); 
   }
   
   .data-card::before {
@@ -27,24 +27,24 @@
     background-position: center;
     z-index: 0;
     transform: scale(1);
-    filter: brightness(0.7); /* Default dim background */
+    filter: brightness(0.7);
     transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
   }
   
   .data-overlay {
     position: absolute;
     inset: 0;
-    background-color: rgba(0, 0, 0, 0.8); /* Dark overlay for clicked state */
+    background-color: rgba(0, 0, 0, 0.8);
     display: flex;
     justify-content: right;
     align-items: center;
-    z-index: 2; /* Ensure it's above the background */
-    opacity: 0; /* Default hidden */
+    z-index: 2; 
+    opacity: 0; 
     transition: opacity 0.3s ease-in-out;
   }
   
   .data-overlay.show-description {
-    opacity: 1; /* Show overlay when clicked */
+    opacity: 1;
   }
   
   .full-description {
@@ -58,7 +58,7 @@
     position: absolute;
     bottom: 20px;
     left: 20px;
-    z-index: 3; /* Ensure text is always on top */
+    z-index: 3; 
     display: flex;
     flex-direction: column;
     color: white;
@@ -105,3 +105,26 @@
     opacity: 1; /* Ensure overlay is shown when expanded */
   }
   
+  .data-date {
+    font-size: 0.9rem;
+    color: #f0f0f0;
+    margin-top: 5px;
+  }
+  
+  .timeline-card .data-content {
+    font-size: 0.8rem; /* Smaller font for timeline-specific cards */
+  }
+  
+  .timeline-card .data-logo {
+    width: 2.5rem; /* Adjusted logo size for timeline */
+    height: 2.5rem;
+  }
+  
+  .timeline-card .data-title {
+    font-size: 1rem; /* Smaller title for timeline */
+  }
+  
+  .timeline-card .data-subtitle,
+  .timeline-card .data-date {
+    font-size: 0.7rem; /* Smaller subtitle and date */
+  }

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './DataCard.css';
 
-export default function DataCard({ title, subtitle, description, date, image, link, logo }) {
+export default function DataCard({ title, subtitle, description, date, image, link, logo, location, className }) {
   const [isClicked, setIsClicked] = useState(false);
 
   const handleCardClick = () => {
@@ -10,29 +10,33 @@ export default function DataCard({ title, subtitle, description, date, image, li
 
   return (
     <div
-      className={`data-card ${isClicked ? 'expanded' : ''}`}
+      className={`data-card ${isClicked ? 'expanded' : ''} ${className || ''}`} // Add custom className here
       style={{
         backgroundImage: `url(${image})`,
       }}
       onClick={handleCardClick}
     >
-      <div className={`data-overlay ${isClicked ? 'show-description' : ''}`}>
-        {isClicked && (
-          <div className="full-description">
-            <p>{description}</p>
+      {!isClicked && (
+        <div className="data-content">
+          <div className="data-header">
+            <img src={logo} alt={`${title} logo`} className="data-logo" />
+            <a href={link} target="_blank" rel="noopener noreferrer" className="data-title">
+              {title}
+            </a>
           </div>
-        )}
-      </div>
-      <div className="data-content">
-        <div className="data-header">
-          <img src={logo} alt={`${title} logo`} className="data-logo" />
-          <a href={link} target="_blank" rel="noopener noreferrer" className="data-title">
-            {title}
-          </a>
+          {subtitle && <p className="data-subtitle">{subtitle}</p>}
+          {date && <p className="data-date">{date}</p>}
         </div>
-        {subtitle && <p className="data-subtitle">{subtitle}</p>}
-        {date && <p className="data-date">{date}</p>}
-      </div>
+      )}
+
+      {isClicked && (
+        <div className="data-overlay show-description">
+          <div className="full-description">
+            <p><strong>Location:</strong> {location || 'Not Available'}</p>
+            <p><strong>Description:</strong> {description}</p>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

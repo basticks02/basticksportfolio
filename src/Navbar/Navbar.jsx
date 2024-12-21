@@ -9,7 +9,7 @@ export default function Navbar({ transparent }) {
         <li><a href="#current-updates">Updates</a></li>
         <li><a href="#experiences">Experiences</a></li>
         <li><a href="#timeline">Timeline</a></li>
-        <li><a href="#projects">Projects</a></li>
+        <li><a href="#projects">Projects & Others</a></li>
       </ul>
       
     </nav>
