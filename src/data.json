@@ -1,20 +1,25 @@
 {
     "currentUpdates": [
       {
-        "title": "Google Tech Equity Collective",
+        "title": "Represented the youngest mind at Google's TEC's Innovate @ Google NYC",
         "date": "October 2024",
-        "description": "I attended Google’s Tech Equity Collective event focused on increasing diversity in tech.",
         "backgroundImage": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1731293017/IMG_8606_lewt2o.jpg",
         "link": "https://techequitycollective.withgoogle.com",
         "timelineId": "google-tech-equity-collective"
       },
       {
-        "title": "Meta Stuff",
+        "title": "Landed an internship at Meta @ 18 years old",
         "date": "May 2024",
-        "description": "Interned at Meta during freshman summer.",
         "backgroundImage": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1731293430/IMG_0200_bwj0sw.jpg",
         "link": "https://techequitycollective.withgoogle.com",
-        "timelineId": "google-tech-equity-collective"
+        "timelineId": ""
+      },
+      {
+        "title": "Secured offers from Microsoft, Meta & Uber for Summer 2025",
+        "date": "Fall 2024",
+        "backgroundImage": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734853869/Untitled_design_1_vh5l6u.png",
+        "link": "https://techequitycollective.withgoogle.com",
+        "timelineId": ""
       }
     ],
 
@@ -211,7 +216,7 @@
   ],
     "bio":[
         {
-            "intro": "I am a quick-learning rising sophomore interested in building long-lasting relationships and striving for excellence during my undergraduate years. My curiosity about the interaction between hardware and software, and their role in AI development, stems from my interest in Mathematics and Computer programming. After living in Nigeria for almost a decade, I have come to understand the negative impact of the digital divide. My passion lies in bridging this gap and promoting technological growth in rural areas.",
+            "intro": "Ekomobong is a quick-learning Electrical Engineering sophomore at Howard University interested in building long-lasting relationships and striving for excellence over his undergraduate years. His curiosity about the interaction between hardware and software, and their role in AI development, stemed from his interest in Mathematics and Computer programming. After living in Nigeria for almost a decade, he understands the negative impact of the digital divide. His passion lies in bridging this gap and creating tech breakthoughs, even as he promotes technological growth in rural areas.",
             "number": "+1 (202) 763-1327",
             "email": "ekomobongekanem10@gmail.com",
             "resumeLink": "https://drive.google.com/file/d/1H3lwWbTCDVkFtaCWL0nPH_BvWdKBoAuP/view?usp=drive_link"

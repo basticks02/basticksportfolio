@@ -1,28 +1,67 @@
 .current-updates {
     height: 90vh;
     position: relative;
-    border: solid 1px #f0f0f0;
-    color: #f0f0f0;
+    color: white;
     padding: 4%;
     justify-content: center;
     margin-bottom: 10px;
+    text-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
+  }
+
+  .current-updates h1{
+    color: #f0f0f0;
+    text-transform: uppercase;
+    font-family: "Major Mono Display", monospace;
+    font-style: normal;
+    font-size: 4rem;
+  }
+
+  .contact-information{
+    display: flex;
+    padding: 0 20px;
+    gap: 50px;
+  }
+
+  .contact-information a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    display: inline-block; 
+    transition: color 0.5s ease; 
   }
   
-  .update-container {
+  .contact-information a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 1px; 
+    background-color: white; 
+    transition: width 0.9s ease; 
+  }
+  
+  .contact-information a:hover::after {
+    width: 100%; 
+  }
+  
+  .other-handles{
+    margin-top: 30px;
     display: flex;
-    justify-content: center;
-    gap: 3%;
-    height: 80%;
-    align-items: stretch;
+    padding: 0 20px;
+    gap: 30px;
+    align-items: center;
   }
   
   .bio {
     width: 40%;
-    border: solid 1px #f0f0f0;
     height: 100%;
     text-align: left;
+  }
 
-}
+  .bio p{
+    text-indent: 20px;
+  }
 
 .bio h3{
     text-transform: uppercase;
@@ -36,77 +75,128 @@
   flex: 1; 
   flex-direction: column;
   justify-content: space-between;
-  border: solid 1px #f0f0f0;
   box-sizing: border-box;
 }
 
 .resume-button {
-  margin-top: 10px;
+  border: none;
   padding: 10px 20px;
-  background-color: transparent;
+  background-color:rgba(255, 255, 255, 0.116);
   color: white;
-  border-radius: 5px;
   cursor: pointer;
   font-size: 1rem;
-  transition: text-decoration 0.3s ease, color 0.3s ease, background-color 0.3s ease;
-  text-decoration: none;
+  transition: all 0.5s ease;
 
   &:hover {
-    text-decoration: underline;
-    color: #f0f0f0;
-    background-color: rgba(255, 255, 255, 0.1);
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.975);
+    transition: all 0.5s ease;
   }
 }
 
 
-  
-  .update-main{
-        width: 40%;
-        border: solid 1px #f0f0f0;
-        position: relative;
-        overflow: hidden;
-  }
 
-  .update-card {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: flex-end;
-    border: solid 1px #f0f0f0;
-    position: relative;
-    overflow: hidden;
-    transition: transform 0.5s ease-in-out; 
-  }
+.update-container {
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+  height: 80%;
+  align-items: stretch;
+  text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.762);
   
-  .update-card.slide-in {
-    transform: translateX(100%);
+}
+
+.update-main {
+  width: 40%;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+.update-card {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  transition: opacity 1s ease, transform 1s ease;
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.update-card.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.update-card.inactive {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.update-card .update-background {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+  transition: transform 20s linear, filter 0.3s ease;
+  animation: zoom-in 20s infinite linear;
+}
+
+.update-card:hover .update-background {
+  filter: grayscale(50%);
+}
+
+.update-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+@keyframes zoom-in {
+  0% {
+    transform: scale(1);
   }
-  
-  .update-card.slide-out {
-    transform: translateX(-100%);
+  100% {
+    transform: scale(1.1);
   }
-  
-  .update-overlay {
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 20px;
-    width: 100%;
-  }
-  
-  .update-links a {
-    color: #f0f0f0;
-    text-decoration: none;
-    padding: 5px 10px;
-    background: rgba(255, 255, 255, 0.3);
-    border-radius: 5px;
-  }
-  
-  .current-updates h1 {
-    color: #f0f0f0;
-    text-transform: uppercase;
-    font-family: "Major Mono Display", monospace;
-    font-style: normal;
-    font-size: 4rem;
-  }
-  
+}
+
+.update-text {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  padding: 20px;
+  text-align: left;
+  color: #fff;
+}
+
+.update-title {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.update-date {
+  font-size: 0.9rem;
+}
+
+.read-more-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background: rgba(255, 255, 255, 0.193);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.read-more-link:hover {
+  background: white;
+  color: black;
+  text-decoration: none;
+}
