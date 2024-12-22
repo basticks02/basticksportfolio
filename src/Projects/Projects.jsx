@@ -4,6 +4,11 @@ import data from '../data.json';
 
 export default function Projects() {
   const [activeTab, setActiveTab] = useState('projects');
+  const [selectedProject, setSelectedProject] = useState(null); // State for selected project
+
+  const handleProjectClick = (index) => {
+    setSelectedProject(selectedProject === index ? null : index);
+  };
 
   return (
     <section className="projects" id="projects">
@@ -38,46 +43,44 @@ export default function Projects() {
         {activeTab === 'projects' && (
           <div className="project-list">
             {data.projects.map((project, index) => (
-              <div key={index} className="project-card">
-                <div className="image-container">
-                  <img
-                    src={project.image}
-                    alt={project.title}
-                    className="project-image"
-                  />
-                </div>
-                <h3>{project.title}</h3>
-                <p>{project.description}</p>
-                <p className="tech-used">Technologies Used:</p>
-                <div className="tech-logos">
-                  {project.technologies.map((tech, techIndex) => (
-                    <img
-                      key={techIndex}
-                      src={tech.logo}
-                      alt={tech.name}
-                      className="tech-logo"
-                    />
-                  ))}
-                </div>
-                <div className="project-links">
-                  {project.github && (
-                    <a
-                      href={project.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      View on GitHub
-                    </a>
+              <div key={index} className="project-container">
+                <div
+                  className={`project-card ${
+                    selectedProject === index ? 'active' : ''
+                  }`}
+                  onClick={() => handleProjectClick(index)}
+                  style={{
+                    backgroundImage: `url(${project.image})`,
+                  }}
+                >
+                  {selectedProject !== index && (
+                    <div className="project-overlay">
+                      <h3 className="project-title">{project.title}</h3>
+                      <p className="project-date">{project.date}</p>
+                    </div>
                   )}
-                  {project.live && (
-                    <a
-                      href={project.live}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Live Project
-                    </a>
+                  {selectedProject === index && (
+                    <div className="project-description">
+                      <ul>
+                        {project.description.map((point, i) => (
+                          <li key={i}>{point}</li>
+                        ))}
+                      </ul>
+                    </div>
                   )}
+                </div>
+                <div className="project-details">
+                  <p className="project-tech">
+                    {project.technologies.join(', ')}
+                  </p>
+                  <a
+                    href={project.live || project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="view-project-link"
+                  >
+                    <i className="fa-solid fa-arrow-right"></i>
+                  </a>
                 </div>
               </div>
             ))}
@@ -100,7 +103,7 @@ export default function Projects() {
                     <h3>{cert.name}</h3>
                     <p>{cert.date}</p>
                   </div>
-                  <div className='arrow-container'>
+                  <div className="arrow-container">
                     <i className="fa-solid fa-arrow-up-right-from-square"></i>
                   </div>
                 </div>
@@ -109,31 +112,27 @@ export default function Projects() {
           </div>
         )}
 
-
         {activeTab === 'skills' && (
-          <div className=''>
-
-            <p className='skill-title'>Technical</p>
+          <div className="">
+            <p className="skill-title">Technical</p>
             <div className="skills-list">
-            {data.skills.map((skill, index) => (
-              <div key={index} className="skill-card">
-                <img
-                  src={skill.logo}
-                  alt={skill.name}
-                  className="skill-logo"
-                />
-                <p className="skill-name">{skill.name}</p>
-                <p className="skill-level">{skill.proficiency}</p>
-              </div>
-            ))}
+              {data.skills.map((skill, index) => (
+                <div key={index} className="skill-card">
+                  <img
+                    src={skill.logo}
+                    alt={skill.name}
+                    className="skill-logo"
+                  />
+                  <p className="skill-name">{skill.name}</p>
+                  <p className="skill-level">{skill.proficiency}</p>
+                </div>
+              ))}
             </div>
 
-            <div className='other-skills'>
-              <p className='skill-title'>Other</p>
+            <div className="other-skills">
+              <p className="skill-title">Other</p>
             </div>
-
           </div>
-          
         )}
       </div>
     </section>
