@@ -24,7 +24,7 @@
   }
 
   .data-card.timeline-card {
-    margin: 0;
+    margin: 0px;
   }
   
   @media screen and (max-width: 600px) {
