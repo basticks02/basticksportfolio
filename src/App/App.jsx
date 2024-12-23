@@ -1,35 +1,53 @@
-import { useState } from 'react'
-import reactLogo from '../assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React, { useEffect, useState } from 'react';
+import Hero from '../Hero/Hero';
+import Navbar from '../Navbar/Navbar';
+import CurrentUpdates from '../CurrentUpdates/CurrentUpdates';
+import Timeline from '../Timeline/Timeline';
+import Experiences from '../Experiences/Experiences';
+import Projects from '../Projects/Projects';
+import Footer from '../Footer/Footer';
+import './App.css';
 
-function App() {
-  const [count, setCount] = useState(0)
+export default function App() {
+  const [navbarTransparent, setNavbarTransparent] = useState(true);
+  const [isLaptop, setIsLaptop] = useState(true);
+
+  useEffect(() => {
+    function handleResize() {
+      setIsLaptop(window.innerWidth >= 1024);
+    }
+    handleResize(); 
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  function handleScroll() {
+    setNavbarTransparent(window.scrollY < window.innerHeight);
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  
+  if (!isLaptop) {
+    return (
+      <div className="no-laptop">
+        <p>Opps! Seems you're using a small screen. Please use a laptop or larger screen (≥ 1024px) to view the site</p>
+      </div>
+    );
+  }
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite </h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div>
+      <Navbar transparent={navbarTransparent} />
+      <Hero id="hero" />
+      <CurrentUpdates id="current-updates" />
+      <Experiences id="experiences" />
+      <Timeline id="timeline" />
+      <Projects id="projects" />
+      <Footer id="footer" />
+    </div>
+  );
 }
-
-export default App

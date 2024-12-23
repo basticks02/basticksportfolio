@@ -1,0 +1,277 @@
+{
+    "currentUpdates": [
+      {
+        "title": "Represented the youngest mind at Google's TEC's Innovate @ Google NYC",
+        "date": "October 2024",
+        "backgroundImage": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1731293017/IMG_8606_lewt2o.jpg",
+        "link": "https://techequitycollective.withgoogle.com",
+        "timelineId": "google-tech-equity-collective"
+      },
+      {
+        "title": "Landed an internship at Meta @ 18 years old",
+        "date": "May 2024",
+        "backgroundImage": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1731293430/IMG_0200_bwj0sw.jpg",
+        "link": "https://techequitycollective.withgoogle.com",
+        "timelineId": ""
+      },
+      {
+        "title": "Secured offers from Microsoft, Meta & Uber for Summer 2025",
+        "date": "Fall 2024",
+        "backgroundImage": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734853869/Untitled_design_1_vh5l6u.png",
+        "link": "https://techequitycollective.withgoogle.com",
+        "timelineId": ""
+      }
+    ],
+
+    "timeline": [
+    {
+      "year": 2024,
+      "events": [
+        {
+          "type": "Conference",
+          "title": "Thurgood Marshall College Fund's ''The Pitch''",
+          "location": "Atlanta, GA",
+          "description": "Received the Best Developer Award at the XYZ Conference for innovative contributions to software engineering.",
+          "date": "May 2024", 
+          "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734067341/IMG_6295_uwxizg.jpg",
+          "link": "https://example.com/award-details"
+        },
+        {
+          "type": "Internship",
+          "title": "De Shaw's Connect",
+          "description": "Worked on improving cloud platform features as a part of the Google team.",
+          "date": "September",
+          "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734067442/IMG_6891_itgz86.jpg",
+          "link": "https://example.com/google-internship"
+        },
+        {
+          "type": "Internship",
+          "title": "Alcon's Externship",
+          "description": "Worked on improving cloud platform features as a part of the Google team.",
+          "date": "August",
+          "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734068181/IMG_6273_pnpgjz.jpg",
+          "link": "https://example.com/google-internship"
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "events": [
+        {
+          "type": "Graduation",
+          "title": "Graduated from University",
+          "description": "Completed a B.Sc. in Computer Science with a focus on AI and Machine Learning.",
+          "date": "June 30, 2023", 
+          "image": "https://example.com/university-graduation.jpg",
+          "link": "https://example.com/graduation"
+        }
+      ]
+    }
+  ],
+    
+    "experiences": {
+      "professional": [
+      {
+        "company": "Meta Platforms",
+        "degree": "Software Engineering Intern",
+        "description": "Developed front-end features using React. Improved user experience for Workplace by Meta. Collaborated with cross-functional teams to implement scalable UI components.",
+        "date": "May 2024 - August 2024",
+        "location": "Menlo Park, CA",
+        "logo": "https://images.rawpixel.com/image_png_400/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwOTEtMDUucG5n.png",
+        "image": "https://fastly.4sqi.net/img/general/600x600/3624054_0kYS0fvYErZ3P6qtChy_QBldpDp_llRDQ3o7yLJwHmg.jpg",
+        "link": "https://example.com/meta-internship"
+      },
+      {
+        "company": "Varsity Tutors",
+        "degree": "Python Tutor",
+        "date": "August 2024 - September 2024",
+        "location": "Remote",
+        "description": "",
+        "logo": "data:image/png;base64,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",
+        "image": "https://core-docs.s3.amazonaws.com/nelsonville-york_city_schools_ar/article/image/8278e967-033d-4374-a5f4-2d84c502a106.PNG",
+        "link": "https://www.varsitytutors.com/?geoid=9008163&ad_test=rsa-new-brand&network=g&matchtype=e&keyword=varsity%20tutors&creative=658311591108&device=c&devicemodel=&placement=&position=&capaignid=20125389110&adgroupid=145896265661&loc_physical_ms=9008163&loc_interest_ms=&keywordId=kwd-19291120192&zip=&accountid={123-208-7597}&gad_source=1&gclid=CjwKCAiA6t-6BhA3EiwAltRFGLYa88wKNAfrV6SriZR3Yq3izPZSV7nxlEGlZco61C1JQaH64lTPShoC4QIQAvD_BwE"
+      }
+    ],
+    "education": [
+      {
+        "institution": "Howard University",
+        "description": "Washington, D.C.",
+        "degree": "B.S. in Electrical Engineering, Class of 2027",
+        "gpa": "4.0",
+        "expectedGraduation": "May 2027",
+        "majors": ["Electrical Engineering"],
+        "minors": ["Mathematics, Computer Science"],
+        "scholarshipsAwards": [
+          "Achiever's Scholarship",
+          "3x Dean's List",
+          "Lockheed Martin STEM Scholarship",
+          "LMG Scholarship",
+          "TMCF x Medtronic Scholarship",
+          "UNCF BE U Scholarship",
+          "Goldman Sachs Market Madness Scholarship"
+        ],
+        "relevantCoursework": [
+          "Calculus I,II,III",
+          "Differential Equations",
+          "Computer Science I(C++)",
+          "Digital Systems Design",
+          "Engineering Mathematics",
+          "Circuit Theory"
+        ],
+        "clubsActivities": [
+          "National Society of Black Engineers (NSBE)",
+          "National Science and Technology Medals Foundation (inSTEM)",
+          "IEEE - Graphic Designer & Asst PR Chair",
+          "Nigerian Students Organization"
+        ],
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfHVMWl0tTiPGc4QcYTF3TpHsHD_pRnNHGTQ&s",
+        "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1733874476/Screenshot_2024-12-10_at_6.47.22_PM_mlquux.png",
+        "link": "https://howard.edu/"
+      },
+      {
+        "institution": "Nigerian Christian Institute",
+        "description": "Uyo, Nigeria",
+        "degree": "High School Diploma/WASSCE, Class of 2022",
+        "gpa": "3.89",
+        "expectedGraduation": "December 2022",
+        "majors": ["High School Diploma/WASSCE"],
+        "relevantCoursework": [
+          "Pre-Calculus",
+          "Calculus I",
+          "Physics",
+          "Intro to Computer Science",
+          "Technical/Engineering Drawing"
+        ],
+        "scholarshipsAwards": [
+          "2022 Class Valedictorian",
+          "Winner - Amanim Akpabio Essay Competition",
+          "321 JAMB Exam Score"
+          
+        ],
+        "clubsActivities": [
+          "Ambassadors for Christ Initiative (ACI) - President",
+          "JETS Club"
+        ],
+        "logo": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734895576/images_okiomi.jpg",
+        "image": "https://nciuyo.com/wp-content/uploads/2023/11/ADMIN-BLOCK.webp",
+        "link": "https://nciuyo.com/"
+      }
+    ]
+    },
+    "projects": [
+      {
+        "title": "Synchronize Health App",
+        "date": "Summer 2024",
+        "description": [
+          "Built the comprehensive health management web app for EnoObong Memorial Medical Services, with MERN stack, integrating live notifications using Native WebSockets with an algorithm to manage notification settings",
+          "Implemented a prescription recommendation algorithm with a 3-tier caching mechanism in JavaScript to optimize medication suggestions based on patient symptoms and profiles. "
+        ],
+        "technologies": ["React", "CSS", "NodeJS", "ExpressJS","Javascript", "PostgreSQL"],
+        "image": "https://assets.weforum.org/editor/jeWtOpuA0LlsqlEQiCk6DZN7-qRjwczqGxiBtEiRMF8.png",
+        "github": "https://github.com/Synchronize-X/synchronize"
+      },
+      {
+        "title": "Flixster",
+        "date": "Summer 2024",
+        "description": [
+          "Developed Flixster, an interactive movie site built with React, HTML, and CSS, offering search, sort, and like features to boost user engagement, and designed with a user-friendly layout utilizing Flexbox for seamless navigation.",
+          "Integrated the TMDb API to display live movie data, including embedded YouTube trailers for each movie, ensuring real-time updates and detailed movie information for users."
+        ],
+        "technologies": ["React", "CSS", "TMDb API"],
+        "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734838778/Screenshot_2024-12-21_at_9.39.16_PM_t0xgd6.png",
+        "live": "https://flixster-starter-3c57.onrender.com/"
+      }
+  ],
+  "certifications": [
+    {
+      "name": "TinyML2: Applications of TinyML",
+      "date": "January 2024",
+      "link": "https://courses.edx.org/certificates/224dedbe60fd4e6ab1d128707d7d138d",
+      "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734756466/Screenshot_2024-12-20_at_10.47.23_PM_pdavss.png"
+    },
+    {
+      "name": "CodePath Intro to Cybersecurity Course",
+      "date": "December 2023",
+      "link": "https://drive.google.com/file/d/1EOc0CQylxZvcQUMfadmmPxnd5j33-6u2/view",
+      "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734842029/Screenshot_2024-12-21_at_10.33.29_PM_kw6fin.png"
+    }
+  ],
+  "skills": [
+    
+    {
+      "name": "Python",
+      "proficiency": "Expert",
+      "logo": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734748579/8110ce8ecd7903031e8567dc24e18d9a_bn5pnn.png"
+    },
+    {
+      "name": "C++",
+      "proficiency": "Expert",
+      "logo": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734748812/kisspng-the-c-programming-language-internet-explorer-5ab6f84e5655f2.7073270515219405583536_ae1qxk.png"
+    },
+    {
+      "name": "React",
+      "proficiency": "Expert",
+      "logo": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734748802/30cafbb5f54f45ceb310033f914aa530_ixukfc.png"
+    },
+    {
+      "name": "Javascript",
+      "proficiency": "Expert",
+      "logo": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734752070/659715ef78dd04cdbe11a27b35ff7c49_occb42.png"
+    },
+    {
+      "name": "HTML",
+      "proficiency": "Expert",
+      "logo": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734752063/b27194c21c7371ddb8243d6d050bb892_mapsiv.png"
+    },
+    {
+      "name": "CSS",
+      "proficiency": "Expert",
+      "logo": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734752057/a26244ce11444bd57e0e83e304c4a319_i4uesz.png"
+    },
+    {
+      "name": "Node",
+      "proficiency": "Expert",
+      "logo": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734753032/kisspng-node-js-javascript-react-firebase-icon-5b459763264ef5.5469396615312873951569_ahmuel.png"
+    },
+    {
+      "name": "Github",
+      "proficiency": "Expert",
+      "logo": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734753019/6f3e7cd48bd6b8103857adffe9b144fe_awqyp4.png"
+    },
+    {
+      "name": "Git",
+      "proficiency": "Expert",
+      "logo": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734753042/37c4f35a355bafd03bd92bb4581a5e8a_ygk6gt.png"
+    },
+    {
+      "name": "Postgres",
+      "proficiency": "Expert",
+      "logo": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734752183/d204e21d5301dd36108658a6b8aa97c8_byz1dp.png"
+    },
+    {
+      "name": "AWS",
+      "proficiency": "Expert",
+      "logo": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734752173/abf067f3bef03527c829cc1ee52768d5_deiz4o.png"
+    },
+    {
+      "name": "Logism",
+      "proficiency": "Expert",
+      "logo": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734752076/logisim-icon-512_iguotn.png"
+    },
+    {
+      "name": "MATLAB",
+      "proficiency": "Expert",
+      "logo": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734748838/f847610723fdd70c2309533939b3ce3a_bngsn9.png"
+    }
+  ],
+    "bio":[
+        {
+            "intro": "Ekomobong is a quick-learning Electrical Engineering sophomore at Howard University interested in building long-lasting relationships and striving for excellence over his undergraduate years. His curiosity about the interaction between hardware and software, and their role in AI development, stemed from his interest in Mathematics and Computer programming. After living in Nigeria for almost a decade, he understands the negative impact of the digital divide. His passion lies in bridging this gap and creating tech breakthoughs, even as he promotes technological growth in rural areas.",
+            "number": "+1 (202) 763-1327",
+            "email": "ekomobongekanem10@gmail.com",
+            "resumeLink": "https://drive.google.com/file/d/1H3lwWbTCDVkFtaCWL0nPH_BvWdKBoAuP/view?usp=drive_link"
+
+        }
+    ]
+  }
+  

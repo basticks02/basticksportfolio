@@ -1,0 +1,20 @@
+.hero {
+    position: relative;
+    height: 100vh;
+    background-size: 180%;
+    background-position: 0 40%;
+    background-image: url(https://res.cloudinary.com/dioo5uzvz/image/upload/v1731287881/IMG_7508_8_xhifof.jpg);
+    margin-bottom: 10px;
+  }
+  
+  .hero-name {
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    font-size: 7rem;
+    color: black;
+    font-family: "Major Mono Display", monospace;
+    font-style: normal;
+    text-shadow: 0 6px 12px rgba(0, 0, 0, 0.567);
+  }
+  

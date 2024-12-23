@@ -1,0 +1,28 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px;
+    transition: background-color 0.3s ease-in-out;
+    z-index: 1000;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    font-family: 'Bebas Neue', sans-serif;
+  }
+  
+  .navbar.transparent {
+    background-color: transparent;
+  }
+  
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.589);
+  }
+  
+  .nav-logo {
+    font-size: 1.5rem;
+  }
+
+  .nav-links{
+    text-transform: uppercase;
+  }

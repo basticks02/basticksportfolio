@@ -1,0 +1,278 @@
+.data-card {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.607);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+    font-family: 'Bebas Neue', sans-serif;
+    text-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
+    margin-bottom: 5px;
+  }
+  
+  .data-card:hover::before {
+    transform: scale(1.1);
+    filter: brightness(0.5);
+  }
+  
+  .data-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: inherit;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+    transform: scale(1);
+    filter: brightness(0.7);
+    transition: transform 0.5s ease-in-out, filter 0.5s ease-in-out;
+  }
+  
+  /* The overlay container is always present but hidden by default. */
+  .data-overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+    color: white;
+    pointer-events: none;
+  }
+  
+  /* When isClicked is true, we add .overlay-active for fade/slide in. */
+  .data-overlay.overlay-active {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+  
+  .data-card.expanded .data-overlay.show-description {
+    opacity: 1;
+  }
+  
+  .full-description {
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .data-content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: left;
+  }
+  
+  .data-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .data-logo {
+    width: 3rem;
+    height: 3rem;
+    object-fit: contain;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+  }
+  
+  .data-title {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    display: inline-block;
+    position: relative;
+  }
+  
+  .data-title::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 1px;
+    background-color: white;
+    transition: width 0.9s ease;
+  }
+  
+  .data-title:hover::after {
+    width: 100%;
+  }
+  
+  .data-subtitle,
+  .data-date {
+    font-size: 0.9rem;
+    color: #f0f0f0;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .data-date {
+    margin-top: 5px;
+  }
+  
+  /* TIMELINE */
+  .timeline-card .data-content {
+    font-size: 0.8rem;
+  }
+  
+  .timeline-card .data-title {
+    font-size: 1.4rem;
+    margin-bottom: 3px;
+  }
+  
+  .timeline-card .data-subtitle,
+  .timeline-card .data-date {
+    font-size: 0.9rem;
+  }
+  
+  .timeline-card {
+    position: relative;
+  }
+  
+  .timeline-card::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 30%;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.628));
+    z-index: 1;
+  }
+  
+  .timeline-card.timeline-front .timeline-title {
+    font-size: 0.5rem;
+    text-transform: uppercase;
+  }
+  
+  .timeline-card.timeline-front .timeline-date {
+    font-size: 0.8rem;
+  }
+  
+  .timeline-card .timeline-overlay {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  
+  .timeline-card .timeline-info {
+    text-align: right;
+    border-right: 1px solid white;
+    padding-right: 20px;
+    width: 40%;
+  }
+  
+  .timeline-card .timeline-description {
+    padding-left: 20px;
+    width: 60%;
+  }
+  
+  .timeline-card .timeline-description ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .timeline-card .timeline-description li {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  /* EDUCATION */
+  .education-card .education-overlay {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    color: white;
+    display: flex;
+  }
+  
+  .education-card .detailed-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 20px;
+  }
+  
+  .education-card .detailed-info > div {
+    width: 30%;
+  }
+  
+  .education-card .detailed-info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .education-card .detailed-info ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .education-card .detailed-info li {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+  }
+  
+  .edu-info {
+    text-align: right;
+    border-right: 1px solid white;
+    padding-right: 20px;
+  }
+  
+  /* PROFESSIONAL */
+  .professional-card .professional-overlay {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  
+  .professional-card .prof-info {
+    text-align: right;
+    border-right: 1px solid white;
+    padding-right: 20px;
+    width: 40%;
+    color: white;
+  }
+  
+  .professional-card .role-description {
+    padding-left: 20px;
+    width: 60%;
+  }
+  
+  .professional-card .role-description h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .professional-card .role-description ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .professional-card .role-description li {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  

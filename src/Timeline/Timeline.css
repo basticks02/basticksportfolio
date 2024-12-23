@@ -1,0 +1,37 @@
+.timeline {
+    /* border: 1px solid white; */
+    margin-bottom: 10px;
+  }
+  
+  .timeline_head{
+    /* border-top: 1px white solid; */
+    border-bottom: 1px white solid;
+    padding:2% 0% 0% 4%;
+  }
+
+  .timeline_head h1{
+    color: #f0f0f0;
+    text-transform: uppercase;
+    font-family: "Major Mono Display", monospace;
+    font-style: normal;
+    font-size: 4rem;
+  }
+  
+  .timeline-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
+
+  .data-card.timeline-card {
+    margin: 0px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .timeline-grid {
+      grid-template-columns: 1fr; 
+    }
+  }
+
+
+  
