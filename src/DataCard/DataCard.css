@@ -14,8 +14,8 @@
   }
   
   .data-card:hover::before {
-    transform: scale(1.1); 
-    filter: brightness(0.5); 
+    transform: scale(1.1);
+    filter: brightness(0.5);
   }
   
   .data-card::before {
@@ -28,23 +28,33 @@
     z-index: 0;
     transform: scale(1);
     filter: brightness(0.7);
-    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+    transition: transform 0.5s ease-in-out, filter 0.5s ease-in-out;
   }
   
+  /* The overlay container is always present but hidden by default. */
   .data-overlay {
     position: absolute;
     inset: 0;
     background-color: rgba(0, 0, 0, 0.8);
+    z-index: 2;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 2; 
-    opacity: 0; 
-    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.4s ease, transform 0.4s ease;
     color: white;
+    pointer-events: none;
   }
   
-  .data-overlay.show-description {
+  /* When isClicked is true, we add .overlay-active for fade/slide in. */
+  .data-overlay.overlay-active {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+  
+  .data-card.expanded .data-overlay.show-description {
     opacity: 1;
   }
   
@@ -59,7 +69,7 @@
     position: absolute;
     bottom: 20px;
     left: 20px;
-    z-index: 3; 
+    z-index: 3;
     display: flex;
     flex-direction: column;
     color: white;
@@ -87,6 +97,7 @@
     text-decoration: none;
     transition: all 0.5s ease;
     display: inline-block;
+    position: relative;
   }
   
   .data-title::after {
@@ -95,13 +106,13 @@
     left: 0;
     bottom: 0;
     width: 0;
-    height: 1px; 
-    background-color: white; 
-    transition: width 0.9s ease; 
+    height: 1px;
+    background-color: white;
+    transition: width 0.9s ease;
   }
-
+  
   .data-title:hover::after {
-    width: 100%; 
+    width: 100%;
   }
   
   .data-subtitle,
@@ -110,45 +121,89 @@
     color: #f0f0f0;
     text-align: right;
     padding: 0;
-
-  }
-  
-  .data-card.expanded .data-overlay {
-    opacity: 1; /* Ensure overlay is shown when expanded */
+    margin: 0;
   }
   
   .data-date {
-    font-size: 0.9rem;
-    color: #f0f0f0;
     margin-top: 5px;
   }
   
+  /* TIMELINE */
   .timeline-card .data-content {
-    font-size: 0.8rem; /* Smaller font for timeline-specific cards */
-  }
-  
-  .timeline-card .data-logo {
-    width: 2.5rem; /* Adjusted logo size for timeline */
-    height: 2.5rem;
+    font-size: 0.8rem;
   }
   
   .timeline-card .data-title {
-    font-size: 1rem; /* Smaller title for timeline */
+    font-size: 1.4rem;
+    margin-bottom: 3px;
   }
   
   .timeline-card .data-subtitle,
   .timeline-card .data-date {
-    font-size: 0.7rem; /* Smaller subtitle and date */
+    font-size: 0.9rem;
   }
-
-
-
-  /* Only for education cards */
-.education-card .education-overlay {
+  
+  .timeline-card {
+    position: relative;
+  }
+  
+  .timeline-card::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 30%;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.628));
+    z-index: 1;
+  }
+  
+  .timeline-card.timeline-front .timeline-title {
+    font-size: 0.5rem;
+    text-transform: uppercase;
+  }
+  
+  .timeline-card.timeline-front .timeline-date {
+    font-size: 0.8rem;
+  }
+  
+  .timeline-card .timeline-overlay {
     font-family: 'Courier New', Courier, monospace;
     padding: 20px;
     color: white;
-    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  
+  .timeline-card .timeline-info {
+    text-align: right;
+    border-right: 1px solid white;
+    padding-right: 20px;
+    width: 40%;
+  }
+  
+  .timeline-card .timeline-description {
+    padding-left: 20px;
+    width: 60%;
+  }
+  
+  .timeline-card .timeline-description ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .timeline-card .timeline-description li {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  /* EDUCATION */
+  .education-card .education-overlay {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    color: white;
+    display: flex;
   }
   
   .education-card .detailed-info {
@@ -176,16 +231,15 @@
     font-size: 0.9rem;
     margin-bottom: 5px;
   }
-
-  .edu-info{
+  
+  .edu-info {
     text-align: right;
-    border-right: white 1px solid;
+    border-right: 1px solid white;
     padding-right: 20px;
   }
-
-  /* Professional Card Overlay */
-/* Professional Card Overlay */
-.professional-card .professional-overlay {
+  
+  /* PROFESSIONAL */
+  .professional-card .professional-overlay {
     font-family: 'Courier New', Courier, monospace;
     padding: 20px;
     color: white;
@@ -194,28 +248,24 @@
     flex-wrap: nowrap;
   }
   
-  /* Left-hand side: Title, Date, and Location */
   .professional-card .prof-info {
     text-align: right;
-    border-right: white 1px solid;
+    border-right: 1px solid white;
     padding-right: 20px;
     width: 40%;
     color: white;
   }
   
-  /* Right-hand side: Role Description */
   .professional-card .role-description {
     padding-left: 20px;
     width: 60%;
   }
   
-  /* Role Description Title */
   .professional-card .role-description h3 {
     font-size: 1.2rem;
     margin-bottom: 10px;
   }
   
-  /* Bullet Points */
   .professional-card .role-description ul {
     list-style-type: disc;
     padding-left: 20px;

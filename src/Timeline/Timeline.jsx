@@ -1,12 +1,10 @@
 import React, { useState } from 'react';
 import './Timeline.css';
-import DataCard from '../DataCard/DataCard'; // Import DataCard component
+import DataCard from '../DataCard/DataCard';
 import data from '../data.json';
 
 export default function Timeline() {
   const [view, setView] = useState('2024');
-
-  // Filter timeline data based on the selected year
   const filteredEvents = data.timeline.find((yearBlock) => yearBlock.year.toString() === view)?.events || [];
 
   return (
@@ -14,9 +12,7 @@ export default function Timeline() {
       <div className="timeline_head">
         <h1>Cool Stuff That Happened...</h1>
       </div>
-
       <div className="view-toggle">
-        {/* Dynamically create buttons for each year */}
         {data.timeline.map((yearBlock) => (
           <button
             key={yearBlock.year}
@@ -27,7 +23,6 @@ export default function Timeline() {
           </button>
         ))}
       </div>
-
       <div className="timeline-grid">
         {filteredEvents.length > 0 ? (
           filteredEvents.map((event, index) => (
@@ -38,9 +33,8 @@ export default function Timeline() {
               description={event.description}
               date={event.date}
               image={event.image}
-              logo={event.image} // Replace with an actual logo if available
-              link={event.link}
               location={event.location}
+              link={event.link}
               className="timeline-card"
             />
           ))

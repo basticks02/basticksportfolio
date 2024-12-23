@@ -1,7 +1,13 @@
 .projects {
   margin-bottom: 20px;
-  /* font-family: 'Bebas Neue', sans-serif; */
   min-height: 80vh;
+}
+
+.tab-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh; 
 }
 
 .project-list {
@@ -221,6 +227,7 @@
   padding: 10px 0px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: all 0.5s ease;
+  align-items: center;  
 }
 
 .skill-card:hover{
@@ -236,7 +243,9 @@
   width: 2rem;
   height: 2rem;
   margin-bottom: 10px;
-  
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .skill-name {
