@@ -32,12 +32,23 @@ export default function Experiences() {
         {experiences.map((experience, index) => (
           <DataCard
             key={index}
-            title={experience.company || experience.institution}
-            subtitle={experience.title || experience.degree}
+            title={experience.institution }
+            date={experience.date} 
+            location={experience.location} 
+            subtitle={experience.degree}
+            company={experience.company}
+            gpa={experience.gpa}
+            expectedGraduation={experience.expectedGraduation}
+            majors={experience.majors}
+            minors={experience.minors}
+            scholarshipsAwards={experience.scholarshipsAwards}
+            relevantCoursework={experience.relevantCoursework}
+            clubsActivities={experience.clubsActivities}
             description={experience.description}
             image={experience.image}
             logo={experience.logo}
             link={experience.link}
+            isEducation={view === 'education'}
           />
         ))}
       </div>
