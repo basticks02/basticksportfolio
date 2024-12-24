@@ -1,32 +1,31 @@
-/* Global Reset */
+
+:root {
+  font-size: 80%; 
+}
+
 body {
   margin: 0;
   background-color: black;
   font-family: 'Courier New', Courier, monospace;
-  line-height: 1.5; /* Improve readability */
+  line-height: 1.5;
   color: white;
+  overflow-x: hidden;
 }
 
-/* Headings */
 h1 {
-  font-size: clamp(2rem, 5vw, 4rem); /* Responsive from 2rem to 4rem */
-  text-align: center;
-  margin: 0.5em 0;
+  font-size: clamp(2rem, 5vw, 4rem);
 }
 
-/* Paragraphs */
 p {
-  font-size: clamp(1rem, 2vw, 1.25rem); /* Responsive from 1rem to 1.25rem */
-  line-height: 1.8; /* Add space for readability */
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  line-height: 1.8;
   margin: 0.5em 0;
 }
 
-/* Constrain Content Width */
 body > div, .my-container {
-  overflow-x: hidden; /* Prevent horizontal scrolling */
+  overflow-x: hidden;
 }
 
-/* General Box Sizing */
 html {
   box-sizing: border-box;
 }
@@ -35,21 +34,17 @@ html {
   box-sizing: inherit;
 }
 
-/* Images */
 img {
-  max-width: 100%; /* Ensure images don’t overflow */
+  max-width: 100%;
   height: auto;
 }
 
-/* Links */
 a {
   text-decoration: none;
   color: inherit;
 }
 
-/* Media Query for Larger Screens */
 @media (min-width: 1280px) {
   body > div, .my-container {
-    /* padding: 0 2rem; */
   }
 }
