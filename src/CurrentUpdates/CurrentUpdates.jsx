@@ -17,15 +17,16 @@ export default function CurrentUpdates() {
   const bio = data.bio[0];
 
   return (
-    <section className="current-updates" id="current-updates">
+    <section className="current-updates" id="current-updates" data-aos='fade-up'>
       <h1>What's Happening..?</h1>
 
       <div className="update-container">
-        <div className="update-main">
+        <div className="update-main" data-aos="fade-right">
           {data.currentUpdates.map((update, index) => (
             <div
               key={index}
               className={`update-card ${currentIndex === index ? 'active' : 'inactive'}`}
+              
             >
               <div
                 className="update-background"
@@ -47,7 +48,7 @@ export default function CurrentUpdates() {
           ))}
         </div>
 
-        <div className="bio">
+        <div className="bio" data-aos='fade-up'>
           <h3>Who Is He...?</h3>
           {bio.intro.split('. ').map((paragraph, index) => (
             <p key={index}>{paragraph.trim()}{index < bio.intro.split('. ').length - 1 ? '.' : ''}</p>

@@ -8,7 +8,7 @@ export default function Experiences() {
   const experiences = data.experiences[view];
 
   return (
-    <section className="experiences" id="experiences">
+    <section className="experiences" id="experiences" data-aos='fade-up'>
       <div className="timeline_head">
         <h1>Important Stuff That Happened...</h1>
       </div>
@@ -49,6 +49,7 @@ export default function Experiences() {
             logo={experience.logo}
             link={experience.link}
             isEducation={view === 'education'}
+            
           />
         ))}
       </div>

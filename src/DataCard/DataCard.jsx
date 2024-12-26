@@ -36,6 +36,7 @@ export default function DataCard({
       } ${className}`}
       style={{ backgroundImage: `url(${image})` }}
       onClick={handleCardClick}
+      data-aos="fade-up"
     >
       {!isClicked && !isTimeline && (
         <div className="data-content">

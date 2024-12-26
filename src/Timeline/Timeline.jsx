@@ -8,7 +8,7 @@ export default function Timeline() {
   const filteredEvents = data.timeline.find((yearBlock) => yearBlock.year.toString() === view)?.events || [];
 
   return (
-    <section className="timeline" id="timeline">
+    <section className="timeline" id="timeline" data-aos='fade-up'>
       <div className="timeline_head">
         <h1>Cool Stuff That Happened...</h1>
       </div>
