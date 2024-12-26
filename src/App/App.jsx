@@ -1,4 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 import Hero from '../Hero/Hero';
 import Navbar from '../Navbar/Navbar';
 import CurrentUpdates from '../CurrentUpdates/CurrentUpdates';
@@ -28,6 +31,14 @@ export default function App() {
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, 
+      easing: 'ease-in-out', 
+      once: true, 
+    });
   }, []);
 
   

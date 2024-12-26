@@ -11,7 +11,7 @@ export default function Projects() {
   };
 
   return (
-    <section className="projects" id="projects">
+    <section className="projects" id="projects" data-aos='fade-up'>
       <div className="timeline_head">
         <h1>Projects, Certs & Skills...</h1>
       </div>
@@ -43,7 +43,7 @@ export default function Projects() {
         {activeTab === 'projects' && (
           <div className="project-list">
             {data.projects.map((project, index) => (
-              <div key={index} className="project-container">
+              <div key={index} className="project-container" data-aos="fade-up" data-aos-delay={`${index * 200}`}>
                 <div
                   className={`project-card ${
                     selectedProject === index ? 'active' : ''
@@ -97,8 +97,9 @@ export default function Projects() {
                   backgroundImage: `url(${cert.image})`,
                 }}
                 onClick={() => window.open(cert.link, '_blank')}
+                data-aos="fade-up" data-aos-delay={`${index * 200}`}
               >
-                <div className="certification-overlay">
+                <div className="certification-overlay" >
                   <div className="certification-details">
                     <h3>{cert.name}</h3>
                     <p>{cert.date}</p>
@@ -113,11 +114,11 @@ export default function Projects() {
         )}
 
         {activeTab === 'skills' && (
-          <div className="">
+          <div className="" data-aos="fade-up">
             <p className="skill-title">Technical</p>
             <div className="skills-list">
               {data.skills.map((skill, index) => (
-                <div key={index} className="skill-card">
+                <div key={index} className="skill-card" data-aos="fade-up" data-aos-delay={`${index * 50}`}>
                   <img
                     src={skill.logo}
                     alt={skill.name}
@@ -125,11 +126,12 @@ export default function Projects() {
                   />
                   <p className="skill-name">{skill.name}</p>
                   <p className="skill-level">{skill.proficiency}</p>
+                  
                 </div>
               ))}
             </div>
 
-            <div className="other-skills">
+            <div className="other-skills" data-aos="fade-up" data-aos-delay="300">
               <p className="skill-title">Other</p>
             </div>
           </div>
