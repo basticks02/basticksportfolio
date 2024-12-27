@@ -1,10 +1,8 @@
 .timeline {
-    /* border: 1px solid white; */
     margin-bottom: 10px;
   }
   
   .timeline_head{
-    /* border-top: 1px white solid; */
     border-bottom: 1px white solid;
     padding:2% 0% 0% 4%;
   }
@@ -17,21 +15,76 @@
     font-size: 4rem;
   }
   
+  .timeline-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 0;
+  }
+
   .timeline-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-auto-flow: column;
+    grid-auto-columns: 50vw;
     gap: 5px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+
+  .timeline-grid::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .timeline-grid::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
   }
 
   .data-card.timeline-card {
     margin: 0px;
   }
   
+    
+
+  .scroll-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.5);
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    transition: all 0.8s ease;
+  }
+  
+  .scroll-button.left {
+    left: 10px;
+  }
+  
+  .scroll-button.right {
+    right: 10px;
+  }
+  
+  .scroll-button:hover {
+    background-color: rgba(255, 255, 255, 0.439);
+    color: black;
+    transition: all 0.8s ease;
+  }
+  
+  .scroll-button i {
+    font-size: 1.5rem;
+  }
+
+
+
   @media screen and (max-width: 600px) {
     .timeline-grid {
       grid-template-columns: 1fr; 
     }
   }
-
-
-  

@@ -5,7 +5,14 @@
         "date": "October 2024",
         "backgroundImage": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1731293017/IMG_8606_lewt2o.jpg",
         "link": "https://techequitycollective.withgoogle.com",
-        "timelineId": "google-tech-equity-collective"
+        "timelineId": ""
+      },
+      {
+        "title": "Emerged Winner of Alcon's R&D Externship Case Study Challenge",
+        "date": "August 2024",
+        "backgroundImage": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1735276528/IMG_6347_jgdubn.jpg",
+        "link": "https://www.alcon.com/",
+        "timelineId": ""
       },
       {
         "title": "Landed an internship at Meta @ 18 years old",
@@ -28,29 +35,85 @@
       "year": 2024,
       "events": [
         {
+          "type": "Apprenticeship",
+          "title": "Google x BASTA G-SWEP Fellowship",
+          "location": "New York, NY (Remote)",
+          "description": "Completed a 10-week virtual mentorship program led by a Google Software Engineer, emphasizing coding fundamentals and real-world technical projects. Participated in Basta-led career-readiness workshops, strengthening technical interview skills and coding proficiency. Gained practical experience by working on real-world projects, deepening knowledge of data structures and algorithms, and receiving weekly 1:1 mentorship",
+          "date": "October - December 2024",
+          "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1735261859/Screenshot_2024-12-26_at_7.10.33_PM_hklqjj.png",
+          "link": "https://www.projectbasta.com/gswep-code2career"
+        },
+        {
           "type": "Conference",
-          "title": "Thurgood Marshall College Fund's ''The Pitch''",
+          "title": "Google TEC's Innovate",
+          "location": "New York, NY",
+          "description": "Represented the youngest mind in attendance. Engaged in virtual learning modules covering résumé preparation, group coaching, and key industry insights. Attended a two-day immersive in-person experience at Google NYC, featuring expert-led workshops on product management, platform development, AI/ML among other in-demand tech skills",
+          "date": "October 2024",
+          "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1731293017/IMG_8606_lewt2o.jpg",
+          "link": "https://www.techequitycollective.com/"
+        },
+        {
+          "type": "Hackathon",
+          "title": "Virgina Tech's VT Hacks",
+          "location": "Blacksburg, VA",
+          "description": "Competed in Virginia Tech’s VT Hacks as a two-person team, further developing “Synchronize,” a health management web application. Leveraged Microsoft Azure to integrate a chatbot, enhancing patient engagement and streamlining queries. Implemented QR code functionality for swift patient profile retrieval, improving efficiency and user experience",
+          "date": "September 2024", 
+          "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1735277668/Screenshot_2024-12-26_at_11.34.22_PM_lflpkn.png",
+          "link": "https://dev1.tmcf.org/students-alumni/entrepreneurship/the-pitch/"
+        },
+        {
+          "type": "Conference",
+          "title": "De Shaw's Connect",
+          "location": "New York, NY",
+          "description": "Attended exclusive programming at the Whitney Museum of American Art, gaining insight into the firm’s industry and opportunities. Participated in small-group sessions for underrepresented communities in finance and technology, led by DE Shaw employees. Engaged in interactive discussions about recruitment processes, problem-solving approaches, and campus opportunities. Expanded professional network by connecting with firm staff and fellow high-achieving students from diverse backgrounds",
+          "date": "September 2024",
+          "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734067442/IMG_6891_itgz86.jpg",
+          "link": "https://www.linkedin.com/posts/d%2E-e%2E-shaw-%26-co%2E_deshawgroup-activity-7242512990346825728-3v4M?utm_source=share&utm_medium=member_desktop"
+        },
+        {
+          "type": "Externship",
+          "title": "Alcon's R&D Externship",
+          "location": "Fort Worth, TX",
+          "description": "Participated in Alcon’s four-day R&D externship in Fort Worth, focusing on leadership development and technical workshops. Collaborated with a team to design a VR headset concept aimed at correcting myopia in infants by stimulating targeted eye movement. Secured first place in the case study competition, highlighting innovative approaches to pediatric vision health. Engaged in developmental workshops, panel discussions, and networking sessions with R&D leaders and ERG members",
+          "date": "August 2024",
+          "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734068181/IMG_6273_pnpgjz.jpg",
+          "link": "https://www.alcon.com/"
+        },
+        {
+          "type": "Conference/Competition",
+          "title": "Thurgood Marshall College Fund's 'The Pitch'",
           "location": "Atlanta, GA",
-          "description": "Received the Best Developer Award at the XYZ Conference for innovative contributions to software engineering.",
+          "description": "Collaborated with a six-person “MediTechs” team to develop and pitch MedEdge, an AI-powered solution aimed at reducing medical errors. Utilized prompt engineering to refine the business proposal and pitch, receiving mentorship from industry leaders. Strengthened technical and leadership skills by applying the Business Model Canvas, emphasizing venture ideation, team building, customer discovery, and effective communication",
           "date": "May 2024", 
           "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734067341/IMG_6295_uwxizg.jpg",
-          "link": "https://example.com/award-details"
+          "link": "https://dev1.tmcf.org/students-alumni/entrepreneurship/the-pitch/"
         },
         {
-          "type": "Internship",
-          "title": "De Shaw's Connect",
-          "description": "Worked on improving cloud platform features as a part of the Google team.",
-          "date": "September",
-          "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734067442/IMG_6891_itgz86.jpg",
-          "link": "https://example.com/google-internship"
+          "type": "Conference/Competition",
+          "title": "Capital One's Black & Hispanics Tech Summit",
+          "location": "Remote",
+          "description": "Selected along with 47 students to learn various emerging technologies including AR/VR experiences, Arduino, APIs etc. Emerged 4th place in the 24-hour hackathon themed 'Fintech Future'. Engaged with Capital One professionals and discovered available career paths in the industry.",
+          "date": "May 2024",
+          "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1735281024/bhts_evvhut.jpg",
+          "link": "https://www.capitalone.com/?external_id=WWW_XXXXX_XXX_SEM-Brand_Google_ZZ_ZZ_T_Home_ZZ__kenshoo_clickid__86032&target_id=kwd-16416311&oC=CO5ed2SUs1&gad_source=1&gclid=CjwKCAiAmrS7BhBJEiwAei59i7OLTI0PUXHLzoA--gx4nY2rEm3szlEUueQsFJFPLlT6AIxvj1FeTBoCxKoQAvD_BwE"
         },
         {
-          "type": "Internship",
-          "title": "Alcon's Externship",
-          "description": "Worked on improving cloud platform features as a part of the Google team.",
-          "date": "August",
-          "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734068181/IMG_6273_pnpgjz.jpg",
-          "link": "https://example.com/google-internship"
+          "type": "Conference",
+          "title": "McKinsey Up Next First Year Leadership Summit",
+          "location": "Washington, DC (Remote)",
+          "description": "Participated in McKinsey & Company’s immersive two-day leadership summit for first-year undergraduates, focused on exploring a career in consulting. Built problem-solving and leadership skills through interactive workshops and case simulations. Connected with professionals and peers from Black, Hispanic & Latino, and Indigenous networks, gaining valuable mentorship and insights. ",
+          "date": "April 2024",
+          "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1735274795/Screenshot_2024-12-26_at_10.46.27_PM_i4tx6q.png",
+          "link": "https://www.mckinsey.com/careers/students/undergraduate-diversity-programs"
+        },
+        {
+          "type": "Conference",
+          "title": "Thurgood Marshall College Fund's 'DevCon'",
+          "location": "Baltimore, MD",
+          "description": "Selected as 1 of 400 scholars for TMCF's all expense covered DevCon 2023, a premier professional development conference in Baltimore, MD. Engaged in workshops and seminars focused on leadership, career readiness, and networking with top industry professionals. Participated in interactive sessions that enhanced my skills in strategic thinking, problem-solving, and professional communication",
+          "date": "March 2024", 
+          "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1735279626/Screenshot_2024-12-27_at_12.06.54_AM_ierlwu.png",
+          "link": "https://www.tmcf.org/tmcf-devcon/"
         }
       ]
     },
@@ -58,12 +121,22 @@
       "year": 2023,
       "events": [
         {
-          "type": "Graduation",
-          "title": "Graduated from University",
-          "description": "Completed a B.Sc. in Computer Science with a focus on AI and Machine Learning.",
-          "date": "June 30, 2023", 
-          "image": "https://example.com/university-graduation.jpg",
-          "link": "https://example.com/graduation"
+          "type": "Scholars Program",
+          "title": "National Science & Technology InSTEM Scholars",
+          "location": "Washington, DC (Hybrid)",
+          "description": "Currently participating in a mentorship program that serves as an auxiliary support network for undergraduate students from underrepresented communities who study STEM.",
+          "date": "September 2023 - Present", 
+          "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1735282767/Screenshot_2024-12-27_at_12.59.21_AM_zsledp.png",
+          "link": "https://nationalmedals.org/instem-apply/"
+        },
+        {
+          "type": "Education",
+          "title": "Studied ECE @ Akwa Ibom State University",
+          "location": "Mkpat Enin, Nigeria",
+          "description": "",
+          "date": "March - June 2023", 
+          "image": "https://copsun.org/wp-content/uploads/2023/06/Akwa-Ibom-State-University.jpg",
+          "link": "https://aksu.edu.ng/newsite/"
         }
       ]
     }
@@ -73,13 +146,13 @@
       "professional": [
       {
         "company": "Meta Platforms",
-        "degree": "Software Engineering Intern",
-        "description": "Developed front-end features using React. Improved user experience for Workplace by Meta. Collaborated with cross-functional teams to implement scalable UI components.",
+        "degree": "Software Engineering (MetaU) Intern",
+        "description": "Developed Synchronize, a comprehensive health management web app for EnoObong Memorial Medical Services, with MERN stack, integrating live notifications using Native WebSockets with an algorithm to manage notification settings. Implemented a prescription recommendation algorithm with a 3-tier caching mechanism in JavaScript to optimize medication suggestions based on patient symptoms and profiles. Added functionality to review Marketplace reels before publishing (in PHP)",
         "date": "May 2024 - August 2024",
         "location": "Menlo Park, CA",
         "logo": "https://images.rawpixel.com/image_png_400/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwOTEtMDUucG5n.png",
         "image": "https://fastly.4sqi.net/img/general/600x600/3624054_0kYS0fvYErZ3P6qtChy_QBldpDp_llRDQ3o7yLJwHmg.jpg",
-        "link": "https://example.com/meta-internship"
+        "link": "https://about.meta.com/technologies/facebook-app/"
       },
       {
         "company": "Varsity Tutors",
@@ -182,18 +255,54 @@
         "live": "https://flixster-starter-3c57.onrender.com/"
       }
   ],
-  "certifications": [
+  "certifications": [  
     {
-      "name": "TinyML2: Applications of TinyML",
+      "name": "CodePath x AmazonNEXT: Advanced Technical Interview Prep Course",
+      "date": "August 2024",
+      "link": "https://drive.google.com/file/d/12M6myJT_wQ1sRYqDzEs4C_V4meENcEh4/view?usp=sharing",
+      "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1735257587/Screenshot_2024-12-26_at_5.59.26_PM_akzi7u.png"
+    },
+    {
+      "name": "HarvardX TinyML1: Fundamentals of TinyML",
+      "date": "January 2024",
+      "link": "https://courses.edx.org/certificates/926405b9ae174d5899f6789f418350e7",
+      "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1735258221/Screenshot_2024-12-26_at_6.10.14_PM_nagtvx.png"
+    },
+    {
+      "name": "HarvardX TinyML3: Deploying TinyML",
+      "date": "January 2024",
+      "link": "https://courses.edx.org/certificates/8b11ab4823344a8cb5322dd67de6f311",
+      "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1735258030/Screenshot_2024-12-26_at_6.06.52_PM_kclpvs.png"
+    },
+    {
+      "name": "HarvardX TinyML2: Applications of TinyML",
       "date": "January 2024",
       "link": "https://courses.edx.org/certificates/224dedbe60fd4e6ab1d128707d7d138d",
       "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734756466/Screenshot_2024-12-20_at_10.47.23_PM_pdavss.png"
     },
     {
-      "name": "CodePath Intro to Cybersecurity Course",
+      "name": "CodePath: Intro to Cybersecurity Course",
       "date": "December 2023",
       "link": "https://drive.google.com/file/d/1EOc0CQylxZvcQUMfadmmPxnd5j33-6u2/view",
       "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734842029/Screenshot_2024-12-21_at_10.33.29_PM_kw6fin.png"
+    },
+    {
+      "name": "NationalCPR Foundation: CPR/ AED/ First-Aid Certification",
+      "date": "December 2023",
+      "link": "https://www.linkedin.com/in/ekomobongekanem/details/certifications/1635553728184/single-media-viewer/?profileId=ACoAADyJjKMB2eBzH1bOhSdpmjQo5quXNaBZ7-U",
+      "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1735258607/Screenshot_2024-12-26_at_6.16.39_PM_xqc7ou.png"
+    },
+    {
+      "name": "HBCU First: HBCU Day-One-Ready Program",
+      "date": "November 2023",
+      "link": "https://credentials.hbcufirst.com/00c9a9e7-8c5c-4708-8325-acf07ccc3eaf#acc.bBNKaChm",
+      "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1735258414/Screenshot_2024-12-26_at_6.13.26_PM_dhk5jf.png"
+    },
+    {
+      "name": "HP: Future of Work Academy (FOWA) HBCU Academy",
+      "date": "July 2023",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7092500216813166592/?originTrackingId=HRVB3jt9TWODXRd0SA9PJQ%3D%3D",
+      "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1735258774/Screenshot_2024-12-26_at_6.19.18_PM_zhhzkf.png"
     }
   ],
   "skills": [
