@@ -130,6 +130,33 @@
           "link": "https://nationalmedals.org/instem-apply/"
         },
         {
+          "type": "Hackathon",
+          "title": "Georgia Tech HackGT-X Hackathon",
+          "location": "Atlanta, GA",
+          "description": "Collaborated with a team of 4 students at HackGT x, Atlanta to work on a project called EcoCycle on the SUSTAIN 2110 track. Utilized MongoDB Atlas, Git, Canva, Figma, React.js to seamlessly create the desired model ",
+          "date": "October 2023", 
+          "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1735419664/gthacks_qwxbio.jpg",
+          "link": "https://hack.gt/"
+        },
+        {
+          "type": "Internship",
+          "title": "First-Year Intern",
+          "location": "New York, NY (Remote)",
+          "description": "The HBCU Day-One-Ready Program is a 10-week HBCU First internship equipping Black youth with college-to-career navigation know-how. Through a series of high-touch, student-led events, HBCU students work with Fortune® 500 executives to build skills and grow their network. All certificate earners complete 40 hours of capability-building workshops.",
+          "date": "September - November 2023", 
+          "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1735419059/904f4f52-b59e-43c8-be2e-a55d08fede15_gnuxsu.jpg",
+          "link": "https://hbcufirst.com/"
+        },
+        {
+          "type": "Fellowship",
+          "title": "Colorstack Fellow",
+          "location": "Remote",
+          "description": "Engagement in a community focused on community building, academic support, and the career development of over 2000 Black and Latinx computer science undergraduate students dedicated to pursuing technical careers upon graduation. Upholding ColorStack’s Code of Conduct and Community guidelines within assigned Slack channels.",
+          "date": "August 2023 - Present", 
+          "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1735418174/colorstack_tat1dm.jpg",
+          "link": "https://www.colorstack.org/"
+        },
+        {
           "type": "Education",
           "title": "Studied ECE @ Akwa Ibom State University",
           "location": "Mkpat Enin, Nigeria",
@@ -137,6 +164,20 @@
           "date": "March - June 2023", 
           "image": "https://copsun.org/wp-content/uploads/2023/06/Akwa-Ibom-State-University.jpg",
           "link": "https://aksu.edu.ng/newsite/"
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "events": [
+        {
+          "type": "Award",
+          "title": "Amanim Akpabio Essay Award",
+          "location": "Uyo, Nigeria",
+          "description": "Triumphed in a statewide essay competition of over 1,000 literary and arts students, as the sole STEM participant.",
+          "date": "February 2022", 
+          "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1735417577/Screenshot_2024-12-28_at_2.25.56_PM_zqdtpn.png",
+          "link": "https://www.facebook.com/nciuyo/posts/pfbid024HHrFRJCoBGZu6ggVFUvsiNAvEdVpSbisHXJpLUbSk2yi24NqXRSCgAFHcn2aFYkl"
         }
       ]
     }
