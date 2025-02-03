@@ -291,6 +291,16 @@
     },
     "projects": [
       {
+        "title": "AkwaConnect",
+        "date": "In Progress",
+        "description": [
+          "AkwaConnect is a platform designed to connect Akwa Ibom students and professionals in big tech across the U.S. It allows users to search for individuals using natural language queries and provides a swipe-based interface for engaging with profiles."
+        ],
+        "technologies": ["FastAPI", "Scrapy"],
+        "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1738168874/Akwa-Ibom_zvp8vm.png",
+        "github": "https://github.com/basticks02/akwaconnect"
+      },
+      {
         "title": "Synchronize Health App",
         "date": "Summer 2024",
         "description": [
@@ -314,6 +324,12 @@
       }
   ],
   "certifications": [  
+    {
+      "name": "CodePath: iOS Development Course",
+      "date": "In Progress",
+      "link": "",
+      "image": ""
+    },
     {
       "name": "CodePath x AmazonNEXT: Advanced Technical Interview Prep Course",
       "date": "August 2024",
@@ -367,22 +383,22 @@
     
     {
       "name": "Python",
-      "proficiency": "Expert",
+      "proficiency": "Advanced",
       "logo": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734748579/8110ce8ecd7903031e8567dc24e18d9a_bn5pnn.png"
     },
     {
       "name": "C++",
-      "proficiency": "Expert",
+      "proficiency": "Advanced",
       "logo": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734748812/kisspng-the-c-programming-language-internet-explorer-5ab6f84e5655f2.7073270515219405583536_ae1qxk.png"
     },
     {
       "name": "React",
-      "proficiency": "Expert",
+      "proficiency": "Intermediate",
       "logo": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734748802/30cafbb5f54f45ceb310033f914aa530_ixukfc.png"
     },
     {
       "name": "Javascript",
-      "proficiency": "Expert",
+      "proficiency": "Advanced",
       "logo": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734752070/659715ef78dd04cdbe11a27b35ff7c49_occb42.png"
     },
     {
@@ -397,7 +413,7 @@
     },
     {
       "name": "Node",
-      "proficiency": "Expert",
+      "proficiency": "Intermediate",
       "logo": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734753032/kisspng-node-js-javascript-react-firebase-icon-5b459763264ef5.5469396615312873951569_ahmuel.png"
     },
     {
@@ -412,23 +428,28 @@
     },
     {
       "name": "Postgres",
-      "proficiency": "Expert",
+      "proficiency": "Advanced",
       "logo": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734752183/d204e21d5301dd36108658a6b8aa97c8_byz1dp.png"
     },
     {
       "name": "AWS",
-      "proficiency": "Expert",
+      "proficiency": "Beginner",
       "logo": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734752173/abf067f3bef03527c829cc1ee52768d5_deiz4o.png"
     },
     {
       "name": "Logism",
-      "proficiency": "Expert",
+      "proficiency": "Intermediate",
       "logo": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734752076/logisim-icon-512_iguotn.png"
     },
     {
       "name": "MATLAB",
-      "proficiency": "Expert",
+      "proficiency": "Intermediate",
       "logo": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734748838/f847610723fdd70c2309533939b3ce3a_bngsn9.png"
+    },
+    {
+      "name": "Linux",
+      "proficiency": "Beginner",
+      "logo": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1738166826/kisspng-tux-linux-mint-logo-larry-bird-5b30bc678672c3.2011535815299206155507_wxgymx.png"
     }
   ],
     "bio":[
