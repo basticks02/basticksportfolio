@@ -1,0 +1,492 @@
+{
+    "currentUpdates": [
+      {
+        "title": "1 of 50 selected for D.E. Shaw & Co's Latitude Fellowship",
+        "date": "January 2025",
+        "backgroundImage": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1736524848/IMG_0496_l57d3x.jpg",
+        "link": "https://fellowships.deshaw.com/",
+        "timelineId": ""
+      },
+      {
+        "title": "Represented the youngest mind at Google's TEC's Innovate @ Google NYC",
+        "date": "October 2024",
+        "backgroundImage": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1731293017/IMG_8606_lewt2o.jpg",
+        "link": "https://techequitycollective.withgoogle.com",
+        "timelineId": ""
+      },
+      {
+        "title": "Emerged Winner of Alcon's R&D Externship Case Study Challenge",
+        "date": "August 2024",
+        "backgroundImage": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1735276528/IMG_6347_jgdubn.jpg",
+        "link": "https://www.alcon.com/",
+        "timelineId": ""
+      },
+      {
+        "title": "Landed an internship at Meta @ 18 years old",
+        "date": "May 2024",
+        "backgroundImage": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1731293430/IMG_0200_bwj0sw.jpg",
+        "link": "https://techequitycollective.withgoogle.com",
+        "timelineId": ""
+      },
+      {
+        "title": "Secured offers from Microsoft, Meta & Uber for Summer 2025",
+        "date": "Fall 2024",
+        "backgroundImage": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734853869/Untitled_design_1_vh5l6u.png",
+        "link": "https://techequitycollective.withgoogle.com",
+        "timelineId": ""
+      }
+    ],
+
+    "timeline": [
+    {
+      "year": 2025,
+      "events": [
+        {
+          "type": "Fellowship",
+          "title": "D.E. Shaw Latitude Fellowship",
+          "location": "New York, NY",
+          "description": "1 of 50 selected for D.E. Shaw & Co's Latitude Fellowship out of 1500+ applicants. Received mentorship from senior finance and technology professionals. Attend workshops on algorithmic trading, data analysis, and financial decision-making. Networked with professionals at D.E. Shaw.",
+          "date": "January 2025",
+          "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1740422539/IMG_0546_fn32yu.jpg",
+          "link": "https://www.deshaw.com/"
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "events": [
+        
+        {
+          "type": "Apprenticeship",
+          "title": "Google x BASTA G-SWEP Fellowship",
+          "location": "New York, NY (Remote)",
+          "description": "Completed a 10-week virtual mentorship program led by a Google Software Engineer, emphasizing coding fundamentals and real-world technical projects. Participated in Basta-led career-readiness workshops, strengthening technical interview skills and coding proficiency. Gained practical experience by working on real-world projects, deepening knowledge of data structures and algorithms, and receiving weekly 1:1 mentorship",
+          "date": "October - December 2024",
+          "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1735261859/Screenshot_2024-12-26_at_7.10.33_PM_hklqjj.png",
+          "link": "https://www.projectbasta.com/gswep-code2career"
+        },
+        {
+          "type": "Conference",
+          "title": "Google TEC's Innovate",
+          "location": "New York, NY",
+          "description": "Represented the youngest mind in attendance. Engaged in virtual learning modules covering résumé preparation, group coaching, and key industry insights. Attended a two-day immersive in-person experience at Google NYC, featuring expert-led workshops on product management, platform development, AI/ML among other in-demand tech skills",
+          "date": "October 2024",
+          "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1731293017/IMG_8606_lewt2o.jpg",
+          "link": "https://www.techequitycollective.com/"
+        },
+        {
+          "type": "Hackathon",
+          "title": "Virgina Tech's VT Hacks",
+          "location": "Blacksburg, VA",
+          "description": "Competed in Virginia Tech’s VT Hacks as a two-person team, further developing “Synchronize,” a health management web application. Leveraged Microsoft Azure to integrate a chatbot, enhancing patient engagement and streamlining queries. Implemented QR code functionality for swift patient profile retrieval, improving efficiency and user experience",
+          "date": "September 2024", 
+          "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1735277668/Screenshot_2024-12-26_at_11.34.22_PM_lflpkn.png",
+          "link": "https://dev1.tmcf.org/students-alumni/entrepreneurship/the-pitch/"
+        },
+        {
+          "type": "Conference",
+          "title": "De Shaw's Connect",
+          "location": "New York, NY",
+          "description": "Attended exclusive programming at the Whitney Museum of American Art, gaining insight into the firm’s industry and opportunities. Participated in small-group sessions for underrepresented communities in finance and technology, led by DE Shaw employees. Engaged in interactive discussions about recruitment processes, problem-solving approaches, and campus opportunities. Expanded professional network by connecting with firm staff and fellow high-achieving students from diverse backgrounds",
+          "date": "September 2024",
+          "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734067442/IMG_6891_itgz86.jpg",
+          "link": "https://www.linkedin.com/posts/d%2E-e%2E-shaw-%26-co%2E_deshawgroup-activity-7242512990346825728-3v4M?utm_source=share&utm_medium=member_desktop"
+        },
+        {
+          "type": "Externship",
+          "title": "Alcon's R&D Externship",
+          "location": "Fort Worth, TX",
+          "description": "Participated in Alcon’s four-day R&D externship in Fort Worth, focusing on leadership development and technical workshops. Collaborated with a team to design a VR headset concept aimed at correcting myopia in infants by stimulating targeted eye movement. Secured first place in the case study competition, highlighting innovative approaches to pediatric vision health. Engaged in developmental workshops, panel discussions, and networking sessions with R&D leaders and ERG members",
+          "date": "August 2024",
+          "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734068181/IMG_6273_pnpgjz.jpg",
+          "link": "https://www.alcon.com/"
+        },
+        {
+          "type": "Conference/Competition",
+          "title": "Thurgood Marshall College Fund's 'The Pitch'",
+          "location": "Atlanta, GA",
+          "description": "Collaborated with a six-person “MediTechs” team to develop and pitch MedEdge, an AI-powered solution aimed at reducing medical errors. Utilized prompt engineering to refine the business proposal and pitch, receiving mentorship from industry leaders. Strengthened technical and leadership skills by applying the Business Model Canvas, emphasizing venture ideation, team building, customer discovery, and effective communication",
+          "date": "May 2024", 
+          "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734067341/IMG_6295_uwxizg.jpg",
+          "link": "https://dev1.tmcf.org/students-alumni/entrepreneurship/the-pitch/"
+        },
+        {
+          "type": "Conference/Competition",
+          "title": "Capital One's Black & Hispanics Tech Summit",
+          "location": "Remote",
+          "description": "Selected along with 47 students to learn various emerging technologies including AR/VR experiences, Arduino, APIs etc. Emerged 4th place in the 24-hour hackathon themed 'Fintech Future'. Engaged with Capital One professionals and discovered available career paths in the industry.",
+          "date": "May 2024",
+          "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1735281024/bhts_evvhut.jpg",
+          "link": "https://www.capitalone.com/?external_id=WWW_XXXXX_XXX_SEM-Brand_Google_ZZ_ZZ_T_Home_ZZ__kenshoo_clickid__86032&target_id=kwd-16416311&oC=CO5ed2SUs1&gad_source=1&gclid=CjwKCAiAmrS7BhBJEiwAei59i7OLTI0PUXHLzoA--gx4nY2rEm3szlEUueQsFJFPLlT6AIxvj1FeTBoCxKoQAvD_BwE"
+        },
+        {
+          "type": "Conference",
+          "title": "McKinsey Up Next First Year Leadership Summit",
+          "location": "Washington, DC (Remote)",
+          "description": "Participated in McKinsey & Company’s immersive two-day leadership summit for first-year undergraduates, focused on exploring a career in consulting. Built problem-solving and leadership skills through interactive workshops and case simulations. Connected with professionals and peers from Black, Hispanic & Latino, and Indigenous networks, gaining valuable mentorship and insights. ",
+          "date": "April 2024",
+          "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1735274795/Screenshot_2024-12-26_at_10.46.27_PM_i4tx6q.png",
+          "link": "https://www.mckinsey.com/careers/students/undergraduate-diversity-programs"
+        },
+        {
+          "type": "Conference",
+          "title": "Thurgood Marshall College Fund's 'DevCon'",
+          "location": "Baltimore, MD",
+          "description": "Selected as 1 of 400 scholars for TMCF's all expense covered DevCon 2023, a premier professional development conference in Baltimore, MD. Engaged in workshops and seminars focused on leadership, career readiness, and networking with top industry professionals. Participated in interactive sessions that enhanced my skills in strategic thinking, problem-solving, and professional communication",
+          "date": "March 2024", 
+          "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1735279626/Screenshot_2024-12-27_at_12.06.54_AM_ierlwu.png",
+          "link": "https://www.tmcf.org/tmcf-devcon/"
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "events": [
+        {
+          "type": "Scholars Program",
+          "title": "National Science & Technology InSTEM Scholars",
+          "location": "Washington, DC (Hybrid)",
+          "description": "Currently participating in a mentorship program that serves as an auxiliary support network for undergraduate students from underrepresented communities who study STEM.",
+          "date": "September 2023 - Present", 
+          "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1735282767/Screenshot_2024-12-27_at_12.59.21_AM_zsledp.png",
+          "link": "https://nationalmedals.org/instem-apply/"
+        },
+        {
+          "type": "Hackathon",
+          "title": "Georgia Tech HackGT-X Hackathon",
+          "location": "Atlanta, GA",
+          "description": "Collaborated with a team of 4 students at HackGT x, Atlanta to work on a project called EcoCycle on the SUSTAIN 2110 track. Utilized MongoDB Atlas, Git, Canva, Figma, React.js to seamlessly create the desired model ",
+          "date": "October 2023", 
+          "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1735419664/gthacks_qwxbio.jpg",
+          "link": "https://hack.gt/"
+        },
+        {
+          "type": "Internship",
+          "title": "First-Year Intern",
+          "location": "New York, NY (Remote)",
+          "description": "The HBCU Day-One-Ready Program is a 10-week HBCU First internship equipping Black youth with college-to-career navigation know-how. Through a series of high-touch, student-led events, HBCU students work with Fortune® 500 executives to build skills and grow their network. All certificate earners complete 40 hours of capability-building workshops.",
+          "date": "September - November 2023", 
+          "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1735419059/904f4f52-b59e-43c8-be2e-a55d08fede15_gnuxsu.jpg",
+          "link": "https://hbcufirst.com/"
+        },
+        {
+          "type": "Fellowship",
+          "title": "Colorstack Fellow",
+          "location": "Remote",
+          "description": "Engagement in a community focused on community building, academic support, and the career development of over 2000 Black and Latinx computer science undergraduate students dedicated to pursuing technical careers upon graduation. Upholding ColorStack’s Code of Conduct and Community guidelines within assigned Slack channels.",
+          "date": "August 2023 - Present", 
+          "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1735418174/colorstack_tat1dm.jpg",
+          "link": "https://www.colorstack.org/"
+        },
+        {
+          "type": "Education",
+          "title": "Studied ECE @ Akwa Ibom State University",
+          "location": "Mkpat Enin, Nigeria",
+          "description": "",
+          "date": "March - June 2023", 
+          "image": "https://copsun.org/wp-content/uploads/2023/06/Akwa-Ibom-State-University.jpg",
+          "link": "https://aksu.edu.ng/newsite/"
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "events": [
+        {
+          "type": "Award",
+          "title": "Amanim Akpabio Essay Award",
+          "location": "Uyo, Nigeria",
+          "description": "Triumphed in a statewide essay competition of over 1,000 literary and arts students, as the sole STEM participant.",
+          "date": "February 2022", 
+          "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1735417577/Screenshot_2024-12-28_at_2.25.56_PM_zqdtpn.png",
+          "link": "https://www.facebook.com/nciuyo/posts/pfbid024HHrFRJCoBGZu6ggVFUvsiNAvEdVpSbisHXJpLUbSk2yi24NqXRSCgAFHcn2aFYkl"
+        }
+      ]
+    }
+  ],
+    
+    "experiences": {
+      "professional": [
+      {
+        "company": "Meta Platforms",
+        "degree": "Software Engineering (MetaU) Intern",
+        "description": "Developed Synchronize, a comprehensive health management web app for EnoObong Memorial Medical Services, with MERN stack, integrating live notifications using Native WebSockets with an algorithm to manage notification settings. Implemented a prescription recommendation algorithm with a 3-tier caching mechanism in JavaScript to optimize medication suggestions based on patient symptoms and profiles. Added functionality to review Marketplace reels before publishing (in PHP)",
+        "date": "May 2024 - August 2024",
+        "location": "Menlo Park, CA",
+        "logo": "https://images.rawpixel.com/image_png_400/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwOTEtMDUucG5n.png",
+        "image": "https://fastly.4sqi.net/img/general/600x600/3624054_0kYS0fvYErZ3P6qtChy_QBldpDp_llRDQ3o7yLJwHmg.jpg",
+        "link": "https://about.meta.com/technologies/facebook-app/"
+      },
+      {
+        "company": "Varsity Tutors",
+        "degree": "Python Tutor",
+        "date": "August 2024 - September 2024",
+        "location": "Remote",
+        "description": "",
+        "logo": "data:image/png;base64,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",
+        "image": "https://core-docs.s3.amazonaws.com/nelsonville-york_city_schools_ar/article/image/8278e967-033d-4374-a5f4-2d84c502a106.PNG",
+        "link": "https://www.varsitytutors.com/?geoid=9008163&ad_test=rsa-new-brand&network=g&matchtype=e&keyword=varsity%20tutors&creative=658311591108&device=c&devicemodel=&placement=&position=&capaignid=20125389110&adgroupid=145896265661&loc_physical_ms=9008163&loc_interest_ms=&keywordId=kwd-19291120192&zip=&accountid={123-208-7597}&gad_source=1&gclid=CjwKCAiA6t-6BhA3EiwAltRFGLYa88wKNAfrV6SriZR3Yq3izPZSV7nxlEGlZco61C1JQaH64lTPShoC4QIQAvD_BwE"
+      },
+      {
+        "company": "Nigerian Christian Institute",
+        "degree": "Teaching Assistant",
+        "description": "Partnered with the Head of the Arts & Linguistics department to formulate and criticize weekly teaching schemes. Co-edited the 9th volume of the annual school magazine along with the editorial board. Taught 8th grade Visual Arts – Origami & Cardmaking.",
+        "date": "September - December 2022",
+        "location": "Uyo, Nigeria",
+        "logo": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734895576/images_okiomi.jpg",
+        "image": "https://nciuyo.com/wp-content/uploads/2023/11/ADMIN-BLOCK.webp",
+        "link": "https://nciuyo.com/"
+      }
+    ],
+    "education": [
+      {
+        "institution": "Howard University",
+        "description": "Washington, D.C.",
+        "degree": "B.S. in Electrical Engineering, Class of 2027",
+        "gpa": "4.0",
+        "expectedGraduation": "May 2027",
+        "majors": ["Electrical Engineering"],
+        "minors": ["Mathematics, Computer Science"],
+        "scholarshipsAwards": [
+          "Achiever's Scholarship",
+          "3x Dean's List",
+          "Lockheed Martin STEM Scholarship",
+          "LMG Scholarship",
+          "TMCF x Medtronic Scholarship",
+          "UNCF BE U Scholarship",
+          "Goldman Sachs Market Madness Scholarship"
+        ],
+        "relevantCoursework": [
+          "Calculus I,II,III",
+          "Differential Equations",
+          "Computer Science I(C++)",
+          "Digital Systems Design",
+          "Engineering Mathematics",
+          "Circuit Theory"
+        ],
+        "clubsActivities": [
+          "National Society of Black Engineers (NSBE)",
+          "National Science and Technology Medals Foundation (inSTEM)",
+          "IEEE - Graphic Designer & Asst PR Chair",
+          "Nigerian Students Organization"
+        ],
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfHVMWl0tTiPGc4QcYTF3TpHsHD_pRnNHGTQ&s",
+        "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1733874476/Screenshot_2024-12-10_at_6.47.22_PM_mlquux.png",
+        "link": "https://howard.edu/"
+      },
+      {
+        "institution": "Nigerian Christian Institute",
+        "description": "Uyo, Nigeria",
+        "degree": "High School Diploma/WASSCE, Class of 2022",
+        "gpa": "3.89",
+        "expectedGraduation": "December 2022",
+        "majors": ["High School Diploma/WASSCE"],
+        "relevantCoursework": [
+          "Pre-Calculus",
+          "Calculus I",
+          "Physics",
+          "Intro to Computer Science",
+          "Technical/Engineering Drawing"
+        ],
+        "scholarshipsAwards": [
+          "2022 Class Valedictorian",
+          "Winner - Amanim Akpabio Essay Competition",
+          "321 JAMB Exam Score"
+          
+        ],
+        "clubsActivities": [
+          "Ambassadors for Christ Initiative (ACI) - President",
+          "JETS Club"
+        ],
+        "logo": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734895576/images_okiomi.jpg",
+        "image": "https://nciuyo.com/wp-content/uploads/2023/11/ADMIN-BLOCK.webp",
+        "link": "https://nciuyo.com/"
+      }
+    ]
+    },
+    "projects": [
+      {
+        "title": "AkwaConnect",
+        "date": "In Progress",
+        "description": [
+          "AkwaConnect is a platform designed to connect Akwa Ibom students and professionals in big tech across the U.S. It allows users to search for individuals using natural language queries and provides a swipe-based interface for engaging with profiles."
+        ],
+        "technologies": ["FastAPI", "Scrapy"],
+        "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1738168874/Akwa-Ibom_zvp8vm.png",
+        "github": "https://github.com/basticks02/akwaconnect"
+      },
+      {
+        "title": "SafeStreets (BisonHacks 2025)",
+        "date": "Spring 2025",
+        "description": [
+          "Engineered an Open Data DC–powered geospatial pipeline, integrating dynamic crime data with Google Maps to recalculate route safety, reducing high-risk path usage by 30%." , 
+          "Implemented Llama-based NLP, parsing natural language queries into lat/lon coordinates in real-time under a 24-hour sprint." , 
+          "Built a crowdsourced street-weighting algorithm, merging crime metrics and user reports to lower overall risk exposure by 20% for urban travelers."
+      ],
+        "technologies": ["Llama 2.0", "Google Maps", "Node.js", "Express.js", "React", "Postgres"],
+        "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1740421549/safestreet_image_wqrys3.jpg",
+        "github": "https://devpost.com/software/safestreets-hsfqgd?ref_content=my-projects-tab&ref_feature=my_projects"
+      },
+      {
+        "title": "Synchronize Health App",
+        "date": "Summer 2024",
+        "description": [
+          "Built the comprehensive health management web app for EnoObong Memorial Medical Services, with MERN stack, integrating live notifications using Native WebSockets with an algorithm to manage notification settings",
+          "Implemented a prescription recommendation algorithm with a 3-tier caching mechanism in JavaScript to optimize medication suggestions based on patient symptoms and profiles. "
+        ],
+        "technologies": ["React", "CSS", "NodeJS", "ExpressJS","Javascript", "PostgreSQL", "AWS"],
+        "image": "https://assets.weforum.org/editor/jeWtOpuA0LlsqlEQiCk6DZN7-qRjwczqGxiBtEiRMF8.png",
+        "github": "https://github.com/Synchronize-X/synchronize"
+      },
+      {
+        "title": "Flixster",
+        "date": "Summer 2024",
+        "description": [
+          "Developed Flixster, an interactive movie site built with React, HTML, and CSS, offering search, sort, and like features to boost user engagement, and designed with a user-friendly layout utilizing Flexbox for seamless navigation.",
+          "Integrated the TMDb API to display live movie data, including embedded YouTube trailers for each movie, ensuring real-time updates and detailed movie information for users."
+        ],
+        "technologies": ["React", "CSS", "TMDb API"],
+        "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734838778/Screenshot_2024-12-21_at_9.39.16_PM_t0xgd6.png",
+        "live": "https://flixster-starter-3c57.onrender.com/"
+      }
+  ],
+  "certifications": [  
+    {
+      "name": "CodePath: iOS Development Course",
+      "date": "In Progress",
+      "link": "",
+      "image": ""
+    },
+    {
+      "name": "CodePath x AmazonNEXT: Advanced Technical Interview Prep Course",
+      "date": "August 2024",
+      "link": "https://drive.google.com/file/d/12M6myJT_wQ1sRYqDzEs4C_V4meENcEh4/view?usp=sharing",
+      "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1735257587/Screenshot_2024-12-26_at_5.59.26_PM_akzi7u.png"
+    },
+    {
+      "name": "HarvardX TinyML1: Fundamentals of TinyML",
+      "date": "January 2024",
+      "link": "https://courses.edx.org/certificates/926405b9ae174d5899f6789f418350e7",
+      "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1735258221/Screenshot_2024-12-26_at_6.10.14_PM_nagtvx.png"
+    },
+    {
+      "name": "HarvardX TinyML3: Deploying TinyML",
+      "date": "January 2024",
+      "link": "https://courses.edx.org/certificates/8b11ab4823344a8cb5322dd67de6f311",
+      "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1735258030/Screenshot_2024-12-26_at_6.06.52_PM_kclpvs.png"
+    },
+    {
+      "name": "HarvardX TinyML2: Applications of TinyML",
+      "date": "January 2024",
+      "link": "https://courses.edx.org/certificates/224dedbe60fd4e6ab1d128707d7d138d",
+      "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734756466/Screenshot_2024-12-20_at_10.47.23_PM_pdavss.png"
+    },
+    {
+      "name": "CodePath: Intro to Cybersecurity Course",
+      "date": "December 2023",
+      "link": "https://drive.google.com/file/d/1EOc0CQylxZvcQUMfadmmPxnd5j33-6u2/view",
+      "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734842029/Screenshot_2024-12-21_at_10.33.29_PM_kw6fin.png"
+    },
+    {
+      "name": "NationalCPR Foundation: CPR/ AED/ First-Aid Certification",
+      "date": "December 2023",
+      "link": "https://www.linkedin.com/in/ekomobongekanem/details/certifications/1635553728184/single-media-viewer/?profileId=ACoAADyJjKMB2eBzH1bOhSdpmjQo5quXNaBZ7-U",
+      "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1735258607/Screenshot_2024-12-26_at_6.16.39_PM_xqc7ou.png"
+    },
+    {
+      "name": "HBCU First: HBCU Day-One-Ready Program",
+      "date": "November 2023",
+      "link": "https://credentials.hbcufirst.com/00c9a9e7-8c5c-4708-8325-acf07ccc3eaf#acc.bBNKaChm",
+      "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1735258414/Screenshot_2024-12-26_at_6.13.26_PM_dhk5jf.png"
+    },
+    {
+      "name": "HP: Future of Work Academy (FOWA) HBCU Academy",
+      "date": "July 2023",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7092500216813166592/?originTrackingId=HRVB3jt9TWODXRd0SA9PJQ%3D%3D",
+      "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1735258774/Screenshot_2024-12-26_at_6.19.18_PM_zhhzkf.png"
+    }
+  ],
+  "skills": [
+    
+    {
+      "name": "Python",
+      "proficiency": "Advanced",
+      "logo": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734748579/8110ce8ecd7903031e8567dc24e18d9a_bn5pnn.png"
+    },
+    {
+      "name": "C++",
+      "proficiency": "Advanced",
+      "logo": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734748812/kisspng-the-c-programming-language-internet-explorer-5ab6f84e5655f2.7073270515219405583536_ae1qxk.png"
+    },
+    {
+      "name": "React",
+      "proficiency": "Intermediate",
+      "logo": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734748802/30cafbb5f54f45ceb310033f914aa530_ixukfc.png"
+    },
+    {
+      "name": "Javascript",
+      "proficiency": "Advanced",
+      "logo": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734752070/659715ef78dd04cdbe11a27b35ff7c49_occb42.png"
+    },
+    {
+      "name": "HTML",
+      "proficiency": "Expert",
+      "logo": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734752063/b27194c21c7371ddb8243d6d050bb892_mapsiv.png"
+    },
+    {
+      "name": "CSS",
+      "proficiency": "Expert",
+      "logo": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734752057/a26244ce11444bd57e0e83e304c4a319_i4uesz.png"
+    },
+    {
+      "name": "Node",
+      "proficiency": "Intermediate",
+      "logo": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734753032/kisspng-node-js-javascript-react-firebase-icon-5b459763264ef5.5469396615312873951569_ahmuel.png"
+    },
+    {
+      "name": "Github",
+      "proficiency": "Expert",
+      "logo": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734753019/6f3e7cd48bd6b8103857adffe9b144fe_awqyp4.png"
+    },
+    {
+      "name": "Git",
+      "proficiency": "Expert",
+      "logo": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734753042/37c4f35a355bafd03bd92bb4581a5e8a_ygk6gt.png"
+    },
+    {
+      "name": "Postgres",
+      "proficiency": "Advanced",
+      "logo": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734752183/d204e21d5301dd36108658a6b8aa97c8_byz1dp.png"
+    },
+    {
+      "name": "AWS",
+      "proficiency": "Beginner",
+      "logo": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734752173/abf067f3bef03527c829cc1ee52768d5_deiz4o.png"
+    },
+    {
+      "name": "Logism",
+      "proficiency": "Intermediate",
+      "logo": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734752076/logisim-icon-512_iguotn.png"
+    },
+    {
+      "name": "MATLAB",
+      "proficiency": "Intermediate",
+      "logo": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1734748838/f847610723fdd70c2309533939b3ce3a_bngsn9.png"
+    },
+    {
+      "name": "Linux",
+      "proficiency": "Beginner",
+      "logo": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1738166826/kisspng-tux-linux-mint-logo-larry-bird-5b30bc678672c3.2011535815299206155507_wxgymx.png"
+    }
+  ],
+    "bio":[
+        {
+            "intro": "Ekomobong is a quick-learning Electrical Engineering sophomore at Howard University interested in building long-lasting relationships and striving for excellence over his undergraduate years. His curiosity about the interaction between hardware and software, and their role in AI development, stemed from his interest in Mathematics and Computer programming. After living in Nigeria for almost a decade, he understands the negative impact of the digital divide. His passion lies in bridging this gap and creating tech breakthoughs, even as he promotes technological growth in rural areas.",
+            "number": "+1 (202) 763-1327",
+            "email": "ekomobongekanem10@gmail.com",
+            "resumeLink": "https://drive.google.com/file/d/1PJhOzRDVBsFmksnsxsiFqHSbXkWk9c14/view?usp=sharing"
+
+        }
+    ]
+  }
+  
