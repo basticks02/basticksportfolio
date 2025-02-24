@@ -73,7 +73,7 @@ export default function CurrentUpdates() {
                 <i className="fa-brands fa-linkedin"></i>
               </a>
 
-              <a href="https://www.instagram.com/oluwa_basticks" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/ekomobonq" target="_blank" rel="noopener noreferrer">
                 <i className="fa-brands fa-instagram"></i>
               </a>
 
