@@ -39,8 +39,23 @@
 
     "timeline": [
     {
+      "year": 2025,
+      "events": [
+        {
+          "type": "Fellowship",
+          "title": "D.E. Shaw Latitude Fellowship",
+          "location": "New York, NY",
+          "description": "1 of 50 selected for D.E. Shaw & Co's Latitude Fellowship out of 1500+ applicants. Received mentorship from senior finance and technology professionals. Attend workshops on algorithmic trading, data analysis, and financial decision-making. Networked with professionals at D.E. Shaw.",
+          "date": "January 2025",
+          "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1740422539/IMG_0546_fn32yu.jpg",
+          "link": "https://www.deshaw.com/"
+        }
+      ]
+    },
+    {
       "year": 2024,
       "events": [
+        
         {
           "type": "Apprenticeship",
           "title": "Google x BASTA G-SWEP Fellowship",
@@ -301,13 +316,25 @@
         "github": "https://github.com/basticks02/akwaconnect"
       },
       {
+        "title": "SafeStreets (BisonHacks 2025)",
+        "date": "Spring 2025",
+        "description": [
+          "Engineered an Open Data DC–powered geospatial pipeline, integrating dynamic crime data with Google Maps to recalculate route safety, reducing high-risk path usage by 30%." , 
+          "Implemented Llama-based NLP, parsing natural language queries into lat/lon coordinates in real-time under a 24-hour sprint." , 
+          "Built a crowdsourced street-weighting algorithm, merging crime metrics and user reports to lower overall risk exposure by 20% for urban travelers."
+      ],
+        "technologies": ["Llama 2.0", "Google Maps", "Node.js", "Express.js", "React", "Postgres"],
+        "image": "https://res.cloudinary.com/dioo5uzvz/image/upload/v1740421549/safestreet_image_wqrys3.jpg",
+        "github": "https://devpost.com/software/safestreets-hsfqgd?ref_content=my-projects-tab&ref_feature=my_projects"
+      },
+      {
         "title": "Synchronize Health App",
         "date": "Summer 2024",
         "description": [
           "Built the comprehensive health management web app for EnoObong Memorial Medical Services, with MERN stack, integrating live notifications using Native WebSockets with an algorithm to manage notification settings",
           "Implemented a prescription recommendation algorithm with a 3-tier caching mechanism in JavaScript to optimize medication suggestions based on patient symptoms and profiles. "
         ],
-        "technologies": ["React", "CSS", "NodeJS", "ExpressJS","Javascript", "PostgreSQL"],
+        "technologies": ["React", "CSS", "NodeJS", "ExpressJS","Javascript", "PostgreSQL", "AWS"],
         "image": "https://assets.weforum.org/editor/jeWtOpuA0LlsqlEQiCk6DZN7-qRjwczqGxiBtEiRMF8.png",
         "github": "https://github.com/Synchronize-X/synchronize"
       },
